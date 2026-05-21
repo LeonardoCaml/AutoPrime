@@ -1,6 +1,6 @@
 import Script from "next/script"
 
-const defaultGtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-59FK3PN8"
+const defaultGtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-5PW925X7"
 
 interface GoogleTagManagerProps {
   gtmId?: string
