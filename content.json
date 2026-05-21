@@ -1,594 +1,347 @@
 {
   "site": {
-    "name": "GLOBO AUTO CENTER",
-    "tagline": "Mecânica automotiva com confiança, transparência e prazo de entrega.",
-    "description": "Auto center em Marabá para suspensão, freios, correia dentada, ar-condicionado, sistema elétrico, travas, vidros, tração 4x4, injeção, pneus, alinhamento e revisão.",
-    "location": "Marabá, PA, Brasil",
-    "city": "Marabá",
-    "state": "PA",
-    "experienceYears": 20
+    "name": "SUN AMPER",
+    "tagline": "Energia solar com projeto claro, instalação segura e atendimento próximo.",
+    "description": "Energia solar em Salvador, Camaçari, Candeias e região para residências, empresas, indústrias e construtoras, com instalação, manutenção, limpeza, laudo de certificação e adequação elétrica.",
+    "location": "Salvador, Camaçari, Candeias e raio de 40 km de Salvador, BA, Brasil",
+    "city": "Salvador",
+    "state": "BA",
+    "experienceYears": 4
   },
   "navigation": [
-    {
-      "label": "Início",
-      "href": "#inicio"
-    },
-    {
-      "label": "Serviços",
-      "href": "#servicos"
-    },
-    {
-      "label": "Pacotes",
-      "href": "#pecas"
-    },
-    {
-      "label": "Sobre nós",
-      "href": "#sobre"
-    },
-    {
-      "label": "Diferenciais",
-      "href": "#diferenciais"
-    },
-    {
-      "label": "FAQ",
-      "href": "#faq"
-    },
-    {
-      "label": "Contato",
-      "href": "#contato"
-    }
+    { "label": "Início", "href": "#inicio" },
+    { "label": "Serviços", "href": "#servicos" },
+    { "label": "Soluções", "href": "#pecas" },
+    { "label": "Sobre nós", "href": "#sobre" },
+    { "label": "Diferenciais", "href": "#diferenciais" },
+    { "label": "FAQ", "href": "#faq" },
+    { "label": "Contato", "href": "#contato" }
   ],
   "hero": {
-    "title": "Auto center completo para cuidar do seu carro em Marabá.",
-    "subtitle": "Suspensão, freios, correia dentada, ar-condicionado, revisão de óleo e filtros, sistema elétrico, travas, vidros, tração 4x4 e diagnóstico com mão de obra especializada, orçamento claro e prazo de entrega bem combinado.",
+    "title": "Energia solar para reduzir sua conta de luz com segurança e projeto bem explicado.",
+    "subtitle": "Instalação residencial, projetos para empresas, manutenção, limpeza, laudo de certificação e adequação elétrica em Salvador, Camaçari, Candeias e região.",
     "ctaPrimary": {
       "label": "Falar no WhatsApp",
-      "message": "Olá! Quero falar com a Globo Auto Center."
+      "message": "Olá! Quero falar com a SUN AMPER sobre energia solar."
     },
     "ctaSecondary": {
-      "label": "Agendar avaliação",
-      "message": "Olá! Quero agendar uma avaliação na Globo Auto Center."
+      "label": "Solicitar orçamento",
+      "message": "Olá! Quero solicitar um orçamento de energia solar com a SUN AMPER."
     },
     "highlights": [
-      "20 anos de experiência em mecânica automotiva",
-      "Foco em caminhonetes e carros populares",
-      "Especialistas em suspensão, freios, elétrica, travas, vidros, tração 4x4 e ar-condicionado",
-      "Atendimento claro, com negociação justa e prazo combinado"
+      "Mais de 4 anos no mercado de energia solar",
+      "Projetos residenciais, comerciais e industriais",
+      "Instalação, manutenção, limpeza e certificação",
+      "Atendimento em Salvador, Camaçari, Candeias e região"
     ]
   },
   "about": {
-    "eyebrow": "Sobre a Globo",
-    "title": "Mão de obra especializada, transparência e cuidado com o seu veículo",
+    "eyebrow": "Sobre a SUN AMPER",
+    "title": "Projeto, instalação e manutenção com clareza antes de cada etapa",
     "paragraphs": [
-      "A Globo Auto Center é uma oficina mecânica de Marabá com 20 anos de atuação e reconhecimento por indicação. Atendemos motoristas que precisam resolver o carro com clareza, negociação justa e entrega dentro do combinado.",
-      "A oficina cuida de serviços como suspensão, freios, correia dentada, ar-condicionado, revisão de óleo e filtros, sistema elétrico, travas, vidros, tração 4x4, injeção eletrônica e diagnóstico avançado.",
-      "O atendimento pode começar pelo WhatsApp ou direto na loja. A equipe avalia o veículo, explica o que precisa ser feito e combina os próximos passos para você autorizar com segurança."
+      "A SUN AMPER atende clientes residenciais, empresas, indústrias e construtoras que querem gerar a própria energia com um projeto bem dimensionado e execução segura.",
+      "O atendimento começa entendendo o consumo de energia, a necessidade do imóvel, a viabilidade de crédito e as condições de instalação. Quando necessário, a equipe realiza visita técnica para avaliar o local e orientar a melhor solução.",
+      "Além da instalação de sistemas solares, a empresa realiza manutenção, limpeza de placas, laudo de certificação, quadros de segurança e trocas de padrão bifásico e trifásico."
     ]
   },
   "brandMessage": {
-    "title": "A Globo Auto Center quer transmitir confiança e transparência.",
-    "text": "Você encontra uma equipe técnica, atendimento direto, negociação justa e compromisso com o prazo combinado."
+    "title": "A SUN AMPER trabalha com energia solar de forma próxima, técnica e transparente.",
+    "text": "O foco é construir relação de confiança, explicar cada etapa e entregar soluções com material de qualidade e preço justo."
   },
   "differentials": {
-    "title": "Por que escolher a Globo Auto Center?",
+    "title": "Por que escolher a SUN AMPER?",
     "items": [
       {
-        "title": "20 anos de mercado",
-        "description": "Experiência construída no atendimento automotivo em Marabá, com confiança gerada principalmente por indicações."
+        "title": "Projeto sob medida",
+        "description": "Dimensionamento a partir do consumo, perfil do imóvel e necessidade real do cliente."
       },
       {
-        "title": "Mão de obra especializada",
-        "description": "Equipe técnica para mecânica, elétrica, ar-condicionado, alinhamento e diagnóstico com scanner."
+        "title": "Material de qualidade",
+        "description": "Equipamentos selecionados para segurança, desempenho e durabilidade do sistema."
       },
       {
-        "title": "Negociação clara",
-        "description": "Orçamento explicado com foco em resolver o problema do veículo e facilitar sua decisão."
+        "title": "Instalação segura",
+        "description": "Execução técnica com atenção a quadros de segurança, padrões elétricos e homologação."
       },
       {
-        "title": "Prazo de entrega",
-        "description": "Compromisso com organização da execução para entregar o carro dentro do combinado."
+        "title": "Atendimento rápido",
+        "description": "Resposta pelo WhatsApp em poucos minutos para tirar dúvidas e iniciar o orçamento."
       },
       {
-        "title": "Serviços completos",
-        "description": "Suspensão, freios, correia dentada, revisão, ar-condicionado, elétrica, pneus, alinhamento e balanceamento em um só lugar."
+        "title": "Pós-venda e manutenção",
+        "description": "Limpeza, manutenção e acompanhamento para preservar a geração do sistema."
       },
       {
-        "title": "Foco em processos",
-        "description": "Atendimento organizado para combinar avaliação, orçamento, autorização e entrega com mais clareza."
+        "title": "Atuação regional",
+        "description": "Atendimento em Salvador, Camaçari, Candeias e cidades próximas em um raio de 40 km."
       }
     ]
   },
   "services": {
-    "title": "Serviços automotivos para manter seu carro confiável",
-    "subtitle": "Suspensão, freios, correia dentada, ar-condicionado, revisão de óleo e filtros, sistema elétrico, travas, vidros, tração 4x4, injeção, pneus, alinhamento e balanceamento.",
+    "title": "Serviços de energia solar para sua casa ou empresa",
+    "subtitle": "Da análise inicial à manutenção, a SUN AMPER orienta cada etapa para você investir com mais segurança.",
     "categories": [
       {
-        "title": "Mecânica geral",
-        "description": "Revisão preventiva e corretiva para preservar desempenho e segurança.",
-        "items": [
-          "Revisão preventiva",
-          "Revisão completa",
-          "Diagnóstico mecânico",
-          "Troca de óleo do motor",
-          "Troca de filtros",
-          "Correia dentada",
-          "Correia de acessórios",
-          "Troca de velas",
-          "Troca de bobinas",
-          "Troca de bomba d'água",
-          "Troca de juntas e retentores",
-          "Teste de compressão do motor"
-        ],
-        "ctaLabel": "Agendar revisão",
-        "ctaMessage": "Olá! Quero agendar uma revisão na Globo Auto Center."
+        "title": "Instalação residencial",
+        "description": "Sistema fotovoltaico para reduzir a conta de luz da sua casa com projeto dimensionado pelo seu consumo.",
+        "items": ["Análise da conta de energia", "Projeto sob medida", "Instalação do sistema", "Orientação sobre crédito", "Homologação junto à concessionária"],
+        "ctaLabel": "Orçar residencial",
+        "ctaMessage": "Olá! Quero um orçamento de energia solar residencial com a SUN AMPER."
       },
       {
-        "title": "Suspensão",
-        "description": "Mais estabilidade, conforto e segurança para carros populares e caminhonetes.",
-        "items": [
-          "Troca de amortecedores",
-          "Troca de molas",
-          "Troca de bandejas",
-          "Troca de pivôs",
-          "Troca de bieletas",
-          "Troca de buchas",
-          "Troca de coxins",
-          "Diagnóstico de suspensão",
-          "Troca de barra estabilizadora"
-        ],
-        "ctaLabel": "Avaliar suspensão",
-        "ctaMessage": "Olá! Quero avaliar a suspensão na Globo Auto Center."
+        "title": "Empresas e indústrias",
+        "description": "Soluções para negócios que querem previsibilidade no custo de energia e estrutura elétrica bem planejada.",
+        "items": ["Projeto comercial", "Projeto industrial", "Análise de consumo", "Execução técnica", "Acompanhamento da homologação"],
+        "ctaLabel": "Orçar empresa",
+        "ctaMessage": "Olá! Quero um orçamento de energia solar para empresa com a SUN AMPER."
       },
       {
-        "title": "Freios",
-        "description": "Sistema de frenagem revisado com critério técnico.",
-        "items": [
-          "Troca de pastilhas de freio",
-          "Troca de discos de freio",
-          "Troca de lonas",
-          "Troca de cilindro mestre",
-          "Troca de servo freio",
-          "Troca de fluido de freio",
-          "Sangria de freio",
-          "Diagnóstico do sistema de freio",
-          "ABS"
-        ],
-        "ctaLabel": "Avaliar freios",
-        "ctaMessage": "Olá! Quero avaliar os freios na Globo Auto Center."
+        "title": "Manutenção e limpeza",
+        "description": "Cuidado preventivo para manter a eficiência das placas e identificar falhas antes que virem prejuízo.",
+        "items": ["Limpeza de placas solares", "Inspeção visual", "Verificação de geração", "Ajustes preventivos", "Orientação de conservação"],
+        "ctaLabel": "Agendar manutenção",
+        "ctaMessage": "Olá! Quero agendar manutenção ou limpeza de placas solares com a SUN AMPER."
       },
       {
-        "title": "Câmbio e embreagem",
-        "description": "Diagnóstico e reparo para preservar desempenho e trocas corretas.",
-        "items": [
-          "Troca de óleo de câmbio manual",
-          "Reparo de câmbio manual",
-          "Diagnóstico de câmbio",
-          "Troca de embreagem",
-          "Troca de atuador de embreagem",
-          "Troca de volante do motor"
-        ],
-        "ctaLabel": "Consultar câmbio",
-        "ctaMessage": "Olá! Quero consultar um serviço de câmbio ou embreagem na Globo Auto Center."
+        "title": "Laudo de certificação",
+        "description": "Avaliação técnica para documentar condições do sistema e dar mais segurança ao proprietário.",
+        "items": ["Vistoria técnica", "Verificação de instalação", "Registro de inconformidades", "Orientação de correção", "Emissão de laudo"],
+        "ctaLabel": "Solicitar laudo",
+        "ctaMessage": "Olá! Quero solicitar um laudo de certificação com a SUN AMPER."
       },
       {
-        "title": "Sistema elétrico, travas e vidros",
-        "description": "Diagnóstico e reparo para evitar falhas inesperadas em partida, iluminação, acessórios, travas e vidros elétricos.",
-        "items": [
-          "Diagnóstico elétrico",
-          "Troca de bateria",
-          "Troca de alternador",
-          "Troca de motor de partida",
-          "Reparo de travas elétricas",
-          "Reparo de vidros elétricos",
-          "Reparo de chicote elétrico",
-          "Diagnóstico de consumo de bateria",
-          "Troca de fusíveis e relés"
-        ],
-        "ctaLabel": "Avaliar elétrica",
-        "ctaMessage": "Olá! Quero avaliar sistema elétrico, travas ou vidros na Globo Auto Center."
+        "title": "Quadro de segurança",
+        "description": "Adequações elétricas para proteger o sistema, o imóvel e os equipamentos conectados.",
+        "items": ["Quadro de proteção", "String box", "Disjuntores e DPS", "Organização elétrica", "Adequação para sistema solar"],
+        "ctaLabel": "Avaliar segurança",
+        "ctaMessage": "Olá! Quero avaliar quadro de segurança para energia solar com a SUN AMPER."
       },
       {
-        "title": "Injeção eletrônica",
-        "description": "Scanner, testes e reparos para corrigir falhas e consumo alto.",
-        "items": [
-          "Diagnóstico via scanner",
-          "Limpeza de bicos injetores",
-          "Teste de bicos",
-          "Troca de sensores",
-          "Troca de atuadores",
-          "Atualização de software do veículo",
-          "Programação de módulo"
-        ],
-        "ctaLabel": "Fazer scanner",
-        "ctaMessage": "Olá! Quero fazer diagnóstico via scanner na Globo Auto Center."
-      },
-      {
-        "title": "Ar-condicionado automotivo",
-        "description": "Conforto e funcionamento correto do sistema de ar do veículo.",
-        "items": [
-          "Higienização do ar-condicionado",
-          "Troca de filtro de cabine",
-          "Carga de gás",
-          "Troca de compressor",
-          "Troca de condensador",
-          "Troca de evaporador",
-          "Diagnóstico de vazamento"
-        ],
-        "ctaLabel": "Ver ar-condicionado",
-        "ctaMessage": "Olá! Quero avaliar o ar-condicionado do meu carro na Globo Auto Center."
-      },
-      {
-        "title": "Pneus e alinhamento",
-        "description": "Serviços para melhorar dirigibilidade e reduzir desgaste irregular.",
-        "items": [
-          "Alinhamento",
-          "Balanceamento",
-          "Cambagem",
-          "Rodízio de pneus",
-          "Conserto de pneus",
-          "Venda de pneus"
-        ],
-        "ctaLabel": "Agendar alinhamento",
-        "ctaMessage": "Olá! Quero agendar alinhamento e balanceamento na Globo Auto Center."
-      },
-      {
-        "title": "Tração 4x4",
-        "description": "Avaliação e serviço em componentes de tração 4x4 para caminhonetes e veículos preparados para uso severo.",
-        "items": [
-          "Diagnóstico de tração 4x4",
-          "Avaliação de cardã",
-          "Avaliação de diferencial",
-          "Avaliação de caixa de transferência",
-          "Troca de óleo de diferencial",
-          "Troca de óleo de caixa de transferência",
-          "Verificação de cruzetas e homocinéticas",
-          "Diagnóstico de ruídos e vibrações"
-        ],
-        "ctaLabel": "Avaliar 4x4",
-        "ctaMessage": "Olá! Quero avaliar a tração 4x4 na Globo Auto Center."
-      },
-      {
-        "title": "Serviços avançados",
-        "description": "Diagnóstico e programação para veículos que exigem análise mais técnica.",
-        "items": [
-          "Calibração ADAS",
-          "Programação de módulos",
-          "Diagnóstico avançado",
-          "Remap de motor",
-          "Descarbonização de motor",
-          "Limpeza de TBI",
-          "Limpeza de sistema de admissão"
-        ],
-        "ctaLabel": "Consultar diagnóstico",
-        "ctaMessage": "Olá! Quero consultar diagnóstico avançado na Globo Auto Center."
+        "title": "Padrão bifásico e trifásico",
+        "description": "Troca e adequação de padrão para preparar o imóvel para uma instalação mais segura e compatível.",
+        "items": ["Avaliação do padrão atual", "Troca para bifásico", "Troca para trifásico", "Adequação técnica", "Orientação para concessionária"],
+        "ctaLabel": "Avaliar padrão",
+        "ctaMessage": "Olá! Quero avaliar troca de padrão bifásico ou trifásico com a SUN AMPER."
       }
     ],
     "featured": {
-      "title": "Serviços mais procurados na Globo Auto Center",
-      "items": [
-        "Suspensão",
-        "Freios",
-        "Correia dentada",
-        "Ar-condicionado",
-        "Revisão de óleo e filtros",
-        "Sistema elétrico, travas e vidros",
-        "Tração 4x4"
-      ],
-      "description": "Serviços importantes para manter o carro seguro, confortável e pronto para a rotina."
+      "title": "Serviços mais procurados na SUN AMPER",
+      "items": ["Instalação residencial", "Manutenção e limpeza", "Projeto para empresas", "Laudo de certificação", "Quadro de segurança", "Troca de padrão"],
+      "description": "Soluções para quem quer economizar energia, manter o sistema gerando bem e instalar com segurança."
     },
     "commercial": {
-      "title": "Atendimento pelo WhatsApp ou direto na loja",
-      "text": "Você pode chamar pelo WhatsApp para tirar dúvidas, pedir orientação inicial e combinar uma avaliação. Na loja, a equipe confere o veículo, explica o orçamento e executa após sua autorização.",
+      "title": "Atendimento pelo WhatsApp",
+      "text": "Envie sua conta de energia, explique sua necessidade e receba orientação para iniciar o orçamento.",
       "primaryButton": {
         "label": "Chamar no WhatsApp",
-        "message": "Olá! Quero falar com a Globo Auto Center no WhatsApp."
+        "message": "Olá! Quero falar com a SUN AMPER pelo WhatsApp."
       },
       "secondaryButton": {
         "label": "Pedir orçamento",
-        "message": "Olá! Quero pedir um orçamento na Globo Auto Center."
+        "message": "Olá! Quero pedir um orçamento de energia solar com a SUN AMPER."
       }
     }
   },
   "products": {
-    "title": "Pacotes e serviços para resolver o seu carro com mais segurança",
-    "subtitle": "Opções completas para revisão, suspensão, freios, direção, câmbio, ar-condicionado, elétrica, pneus e alinhamento.",
+    "title": "Soluções para gerar energia com mais economia e segurança",
+    "subtitle": "Opções para residências, empresas e sistemas que precisam de manutenção, certificação ou adequação elétrica.",
     "items": [
       {
-        "category": "Direção",
-        "title": "Caixa, coluna e bomba de direção",
-        "image": "/images/products/globo-direcao.png",
-        "description": "Diagnóstico e reparo de direção para corrigir folgas, ruídos, peso no volante e falhas no conjunto.",
-        "ctaLabel": "Avaliar direção",
-        "ctaMessage": "Olá! Quero avaliar a direção do meu veículo na Globo Auto Center."
+        "category": "Residencial",
+        "title": "Energia solar para casas",
+        "image": "/images/sun-amper-banner.png",
+        "description": "Projeto para reduzir a conta de luz e valorizar o imóvel com instalação feita de forma segura.",
+        "ctaLabel": "Orçar minha casa",
+        "ctaMessage": "Olá! Quero orçamento de energia solar para residência com a SUN AMPER."
       },
       {
-        "category": "Suspensão",
-        "title": "Amortecedores e componentes",
-        "image": "/images/products/globo-amortecedores.png",
-        "description": "Troca de amortecedores e itens relacionados para recuperar estabilidade, conforto e segurança.",
-        "ctaLabel": "Avaliar amortecedores",
-        "ctaMessage": "Olá! Quero avaliar amortecedores na Globo Auto Center."
+        "category": "Empresas",
+        "title": "Projeto para negócios",
+        "image": "/images/sun-amper-inversor-deye.png",
+        "description": "Energia solar para empresas que querem previsibilidade, economia e melhor controle dos custos fixos.",
+        "ctaLabel": "Orçar empresa",
+        "ctaMessage": "Olá! Quero orçamento de energia solar para empresa com a SUN AMPER."
       },
       {
-        "category": "Suspensão",
-        "title": "Suspensão por eixo",
-        "image": "/images/products/globo-suspensao-eixo.png",
-        "description": "Pacote com bandejas, pivôs, buchas, bieletas e componentes para eliminar folgas e barulhos.",
-        "ctaLabel": "Avaliar suspensão",
-        "ctaMessage": "Olá! Quero avaliar a suspensão na Globo Auto Center."
+        "category": "Manutenção",
+        "title": "Limpeza e manutenção",
+        "image": "/images/sun-amper-manutencao.png",
+        "description": "Serviço para preservar a geração do sistema e manter os painéis trabalhando com melhor desempenho.",
+        "ctaLabel": "Agendar limpeza",
+        "ctaMessage": "Olá! Quero agendar limpeza ou manutenção com a SUN AMPER."
       },
       {
-        "category": "Embreagem",
-        "title": "Kit de embreagem",
-        "image": "/images/products/globo-cambio-manual.png",
-        "description": "Solução para patinação, dificuldade de engate e perda de desempenho no conjunto de embreagem.",
-        "ctaLabel": "Consultar embreagem",
-        "ctaMessage": "Olá! Quero consultar troca de embreagem na Globo Auto Center."
+        "category": "Segurança",
+        "title": "Quadro de proteção",
+        "image": "/images/sun-amper-string-box.png",
+        "description": "Adequação com dispositivos de proteção para reduzir riscos elétricos e organizar a instalação.",
+        "ctaLabel": "Avaliar quadro",
+        "ctaMessage": "Olá! Quero avaliar quadro de segurança com a SUN AMPER."
       },
       {
-        "category": "Arrefecimento",
-        "title": "Arrefecimento completo",
-        "image": "/images/products/globo-arrefecimento.png",
-        "description": "Radiador, bomba, válvula, mangueiras e fluido para proteger o motor contra superaquecimento.",
-        "ctaLabel": "Verificar arrefecimento",
-        "ctaMessage": "Olá! Quero verificar o arrefecimento na Globo Auto Center."
+        "category": "Certificação",
+        "title": "Laudo técnico",
+        "image": "/images/sun-amper-parceiros.png",
+        "description": "Vistoria e documentação técnica para dar mais clareza sobre as condições do sistema.",
+        "ctaLabel": "Solicitar laudo",
+        "ctaMessage": "Olá! Quero solicitar laudo técnico com a SUN AMPER."
       },
       {
-        "category": "Correia",
-        "title": "Correia dentada + bomba d'água",
-        "image": "/images/products/globo-correia-dentada.png",
-        "description": "Manutenção preventiva essencial para evitar danos graves ao motor e dirigir com mais tranquilidade.",
-        "ctaLabel": "Consultar correia",
-        "ctaMessage": "Olá! Quero consultar troca de correia dentada na Globo Auto Center."
-      },
-      {
-        "category": "Freios",
-        "title": "Freios por eixo",
-        "image": "/images/products/globo-freios.png",
-        "description": "Discos, pastilhas, fluido e serviço técnico para melhorar a resposta de frenagem.",
-        "ctaLabel": "Avaliar freios",
-        "ctaMessage": "Olá! Quero avaliar os freios na Globo Auto Center."
-      },
-      {
-        "category": "Diagnóstico",
-        "title": "Injeção eletrônica avançada",
-        "image": "/images/products/globo-ignicao.png",
-        "description": "Scanner, testes e reparos para falhas, consumo alto, perda de potência e luz de injeção acesa.",
-        "ctaLabel": "Fazer diagnóstico",
-        "ctaMessage": "Olá! Quero fazer diagnóstico de injeção na Globo Auto Center."
-      },
-      {
-        "category": "Elétrica",
-        "title": "Sistema elétrico, travas e vidros",
-        "image": "/images/globo-sistema-eletrico-card.png",
-        "description": "Diagnóstico e reparo de falhas elétricas, bateria, alternador, motor de partida, travas e vidros elétricos.",
-        "ctaLabel": "Avaliar elétrica",
-        "ctaMessage": "Olá! Quero avaliar sistema elétrico, travas ou vidros na Globo Auto Center."
-      },
-      {
-        "category": "Conforto",
-        "title": "Ar-condicionado",
-        "image": "/images/products/globo-ar-condicionado.png",
-        "description": "Higienização, carga de gás, testes e reparos para recuperar conforto e funcionamento correto.",
-        "ctaLabel": "Avaliar ar-condicionado",
-        "ctaMessage": "Olá! Quero avaliar o ar-condicionado na Globo Auto Center."
-      },
-      {
-        "category": "Revisão",
-        "title": "Óleo, filtros e checklist",
-        "image": "/images/products/globo-oleo-filtros.png",
-        "description": "Revisão em pacote para prevenir falhas e manter o carro em dia.",
-        "ctaLabel": "Agendar revisão",
-        "ctaMessage": "Olá! Quero agendar revisão de óleo e filtros na Globo Auto Center."
-      },
-      {
-        "category": "Geometria",
-        "title": "Alinhamento + balanceamento",
-        "image": "/images/products/globo-pneus-passeio.png",
-        "description": "Ajuste para estabilidade, economia de pneus e direção mais segura no uso diário.",
-        "ctaLabel": "Agendar alinhamento",
-        "ctaMessage": "Olá! Quero agendar alinhamento e balanceamento na Globo Auto Center."
-      },
-      {
-        "category": "Pneus",
-        "title": "Pneus para populares e caminhonetes",
-        "image": "/images/products/globo-pneus-caminhonete.png",
-        "description": "Venda, montagem, rodízio e orientação para escolher pneus adequados ao seu veículo.",
-        "ctaLabel": "Consultar pneus",
-        "ctaMessage": "Olá! Quero consultar pneus na Globo Auto Center."
+        "category": "Padrão",
+        "title": "Bifásico e trifásico",
+        "image": "/images/sun-amper-inversor-growatt.png",
+        "description": "Troca e adequação de padrão para preparar o imóvel para um projeto solar compatível.",
+        "ctaLabel": "Avaliar padrão",
+        "ctaMessage": "Olá! Quero avaliar padrão bifásico ou trifásico com a SUN AMPER."
       }
     ],
     "primaryCta": {
-      "label": "Consultar melhor pacote",
-      "message": "Olá! Quero saber qual pacote de manutenção faz sentido para meu carro na Globo Auto Center."
+      "label": "Consultar melhor solução",
+      "message": "Olá! Quero saber qual solução de energia solar faz sentido para mim com a SUN AMPER."
     }
   },
   "promotions": {
-    "title": "Condições para revisão e manutenção",
-    "text": "A Globo Auto Center pode ter condições especiais para revisão, troca de óleo, alinhamento e outros serviços conforme agenda e disponibilidade.",
-    "offers": [
-      "Campanha de revisão de óleo e filtros",
-      "Condição em alinhamento e balanceamento",
-      "Condições em serviços selecionados"
-    ],
-    "note": "Disponibilidade pode variar conforme agenda e peças."
+    "title": "Condições para começar seu projeto solar",
+    "text": "A SUN AMPER pode orientar opções conforme consumo, tipo de imóvel, crédito disponível e agenda de instalação.",
+    "offers": ["Orçamento para residências", "Manutenção e limpeza preventiva", "Adequação elétrica para sistema solar"],
+    "note": "Condições variam conforme análise técnica e disponibilidade."
   },
   "experience": {
-    "title": "Atendimento claro do primeiro contato à entrega",
-    "text": "A equipe orienta, avalia o veículo, apresenta o orçamento e combina o prazo antes de iniciar o serviço.",
-    "optionalText": "Assim você entende o que será feito, quanto vai custar e quando o carro deve ficar pronto."
+    "title": "Atendimento claro do primeiro contato à homologação",
+    "text": "A equipe entende sua necessidade, avalia o consumo, orienta sobre valores, visita técnica e próximos passos.",
+    "optionalText": "Depois da instalação, a homologação pode levar cerca de 30 dias conforme o processo da concessionária."
   },
   "socialProof": {
-    "title": "Confiança construída por indicação",
-    "text": "A Globo Auto Center é lembrada por indicação, negociação clara, prazo de entrega e mão de obra especializada.",
+    "title": "Clientes que buscam economia e confiança",
+    "text": "A SUN AMPER atende quem quer reduzir custos com energia sem abrir mão de explicação clara, material de qualidade e instalação bem feita.",
     "rating": 0,
     "reviewCount": 0,
     "testimonials": [
       {
-        "name": "Carlos Henrique",
+        "name": "Cliente residencial",
         "time": "cliente",
-        "text": "Muitos motoristas chegam pela confiança de quem já conhece o trabalho da oficina."
+        "text": "O atendimento explicou o consumo, o tamanho do sistema e os próximos passos antes do orçamento."
       },
       {
-        "name": "Mariana Costa",
+        "name": "Cliente empresarial",
         "time": "cliente",
-        "text": "O orçamento é explicado com clareza para você decidir com mais segurança."
+        "text": "A análise ajudou a entender como a energia solar poderia reduzir custos fixos da empresa."
       },
       {
-        "name": "João Victor",
+        "name": "Cliente de manutenção",
         "time": "cliente",
-        "text": "A equipe combina o prazo para você saber quando o carro volta para a rotina."
+        "text": "A limpeza e a verificação do sistema deram mais segurança sobre a geração das placas."
       },
       {
-        "name": "Patrícia Almeida",
+        "name": "Cliente de Salvador",
         "time": "cliente",
-        "text": "Equipe técnica para mecânica, elétrica, ar-condicionado, injeção e alinhamento."
+        "text": "O orçamento foi apresentado com clareza e a equipe orientou cada etapa da instalação."
       },
       {
-        "name": "Rafael Oliveira",
+        "name": "Cliente de Camaçari",
         "time": "cliente",
-        "text": "Quem já conhece a oficina pode voltar sempre que precisar de manutenção ou orientação."
+        "text": "A visita técnica ajudou a confirmar o melhor caminho para instalar o sistema."
       },
       {
-        "name": "Fernanda Lima",
+        "name": "Cliente comercial",
         "time": "cliente",
-        "text": "O atendimento ajuda a acompanhar orçamento, autorização, execução e entrega do veículo."
+        "text": "A equipe foi objetiva ao explicar prazos, homologação e cuidados após a instalação."
       }
     ]
   },
   "beforeAfter": {
-    "title": "Conteúdo que mostra diagnóstico, serviço e resultado",
-    "text": "Você entende o sintoma, acompanha a explicação do serviço e recebe orientação para rodar com mais segurança.",
+    "title": "Da conta alta à geração própria",
+    "text": "Você entende o consumo atual, recebe uma proposta dimensionada e acompanha a instalação até o sistema começar a gerar.",
     "items": [
-      {
-        "label": "Antes",
-        "title": "Sintoma explicado",
-        "description": "Entenda ruídos, falhas, desgaste e sinais que aparecem no dia a dia."
-      },
-      {
-        "label": "Durante",
-        "title": "Diagnóstico e execução",
-        "description": "Mostrar scanner, peças, checklist, elétrica, suspensão e ar-condicionado em execução."
-      },
-      {
-        "label": "Depois",
-        "title": "Carro pronto para rodar",
-        "description": "Reforçar segurança, prazo cumprido e orientação para próxima manutenção."
-      }
+      { "label": "Antes", "title": "Conta de luz analisada", "description": "A equipe entende seu consumo e identifica a solução mais adequada." },
+      { "label": "Durante", "title": "Projeto e instalação", "description": "Instalação com materiais selecionados, segurança elétrica e orientação sobre homologação." },
+      { "label": "Depois", "title": "Economia acompanhada", "description": "Manutenção e limpeza ajudam a preservar a geração e o desempenho do sistema." }
     ]
   },
   "contentHub": {
-    "title": "Dicas para cuidar melhor do seu carro",
-    "text": "Informações simples sobre manutenção, diagnóstico, revisão, suspensão, freios, elétrica e cuidados do dia a dia.",
-    "categories": [
-      "Depoimentos",
-      "Serviços",
-      "Dúvidas frequentes",
-      "Diagnóstico",
-      "Dicas automotivas",
-      "Suspensão, freios e revisão"
-    ]
+    "title": "Dicas para aproveitar melhor a energia solar",
+    "text": "Conteúdos simples sobre economia, instalação, manutenção, limpeza, homologação e segurança elétrica.",
+    "categories": ["Energia solar residencial", "Energia solar para empresas", "Manutenção", "Limpeza de placas", "Homologação", "Dicas de economia"]
   },
   "faq": {
     "title": "Perguntas frequentes",
     "items": [
       {
-        "q": "Quais serviços a Globo Auto Center realiza?",
-        "a": "Realizamos mecânica geral, revisão, suspensão, freios, câmbio manual, embreagem, sistema elétrico, travas, vidros, tração 4x4, injeção eletrônica, ar-condicionado, pneus, alinhamento e balanceamento."
+        "q": "A SUN AMPER atende quais regiões?",
+        "a": "Atendemos Salvador, Camaçari, Candeias e cidades próximas em um raio de aproximadamente 40 km de Salvador."
       },
       {
-        "q": "A Globo trabalha com suspensão?",
-        "a": "Sim. Avaliamos amortecedores, bandejas, pivôs, buchas, bieletas e outros itens que podem causar ruídos, folgas e instabilidade."
+        "q": "Vocês fazem instalação residencial?",
+        "a": "Sim. Fazemos análise da conta de energia, orientação de projeto, instalação e acompanhamento da homologação."
       },
       {
-        "q": "Vocês fazem revisão de óleo e filtros?",
-        "a": "Sim. Fazemos troca de óleo, filtros e checklist para orientar os próximos cuidados do veículo."
+        "q": "A empresa atende empresas e indústrias?",
+        "a": "Sim. A SUN AMPER realiza projetos para empresas, indústrias e construtoras, conforme análise técnica e consumo."
       },
       {
-        "q": "A oficina faz ar-condicionado automotivo?",
-        "a": "Sim. Fazemos higienização, troca de filtro de cabine, carga de gás, compressor, condensador, evaporador e diagnóstico de vazamento."
+        "q": "Vocês fazem manutenção e limpeza de placas solares?",
+        "a": "Sim. Realizamos limpeza, manutenção e verificação para ajudar a preservar a eficiência do sistema."
       },
       {
-        "q": "Vocês atendem caminhonetes?",
-        "a": "Sim. O público ideal da Globo inclui caminhonetes e carros populares, incluindo avaliação de tração 4x4 conforme disponibilidade técnica e de peças."
+        "q": "Vocês fazem laudo de certificação?",
+        "a": "Sim. A equipe realiza vistoria técnica e laudo para documentar as condições do sistema."
       },
       {
-        "q": "Como funciona o atendimento?",
-        "a": "O contato pode começar pelo WhatsApp ou diretamente na loja. A equipe avalia o veículo, explica o orçamento e executa o serviço após sua autorização."
+        "q": "Quanto tempo demora uma instalação?",
+        "a": "A instalação costuma levar de 2 a 5 dias, dependendo do porte do projeto e das condições do local."
       },
       {
-        "q": "Qual o horário de funcionamento?",
-        "a": "Atendemos de segunda a sexta das 08h00 às 18h00 e sábado das 08h00 às 13h00."
+        "q": "Quanto tempo demora a homologação?",
+        "a": "A homologação pode levar em torno de 30 dias, conforme andamento do processo junto à concessionária."
       },
       {
-        "q": "Onde a Globo Auto Center atende?",
-        "a": "A Globo Auto Center atende em Marabá, PA."
+        "q": "Vocês trabalham com usinas?",
+        "a": "Projetos de usinas têm prazo maior e são avaliados caso a caso. O foco principal da página é residência, manutenção e empresas."
       }
     ]
   },
   "finalCta": {
-    "title": "Seu carro precisa de suspensão, freios, revisão, correia, elétrica, travas, vidros, tração 4x4 ou ar-condicionado?",
-    "text": "Fale com a Globo Auto Center e receba orientação clara para resolver seu carro com confiança e transparência.",
+    "title": "Quer reduzir sua conta de luz com energia solar?",
+    "text": "Fale com a SUN AMPER, envie sua conta de energia e receba orientação para iniciar seu orçamento.",
     "primaryButton": {
       "label": "Falar no WhatsApp",
-      "message": "Olá! Quero falar com a Globo Auto Center agora."
+      "message": "Olá! Quero falar com a SUN AMPER agora."
     },
     "secondaryButton": {
-      "label": "Solicitar avaliação",
-      "message": "Olá! Quero solicitar uma avaliação na Globo Auto Center."
+      "label": "Solicitar orçamento",
+      "message": "Olá! Quero solicitar um orçamento com a SUN AMPER."
     }
   },
   "contact": {
     "whatsapp": {
       "label": "Fale no WhatsApp",
-      "numberDisplay": "94 99102-7303",
-      "number": "5594991027303",
-      "generalMessage": "Olá! Quero falar com a Globo Auto Center.",
-      "evaluationMessage": "Olá! Quero agendar uma avaliação na Globo Auto Center.",
-      "quoteMessage": "Olá! Quero pedir um orçamento na Globo Auto Center."
+      "numberDisplay": "71 98523-4154",
+      "number": "5571985234154",
+      "generalMessage": "Olá! Quero falar com a SUN AMPER.",
+      "evaluationMessage": "Olá! Quero solicitar uma avaliação de energia solar com a SUN AMPER.",
+      "quoteMessage": "Olá! Quero pedir um orçamento com a SUN AMPER."
     },
-    "email": "globoautocentermkt@gmail.com",
-    "instagram": "https://www.instagram.com/globo_autocenter_/",
-    "location": "Marabá - PA",
+    "email": "sunamper10mkt@gmail.com",
+    "instagram": "https://www.instagram.com/sunamper.bt/",
+    "location": "Salvador, Camaçari, Candeias e região - BA",
     "hours": {
-      "weekdays": "Segunda a sexta: 08h00 às 18h00",
+      "weekdays": "Segunda a sexta: 08h00 às 17h30",
       "saturday": "Sábado: 08h00 às 13h00",
       "sunday": "Domingo: fechado"
     },
-    "mapQuery": "Globo Auto Center, Marabá, PA",
-    "mapLink": "https://www.google.com/maps/search/?api=1&query=Globo%20Auto%20Center%2C%20Marab%C3%A1%2C%20PA"
+    "mapQuery": "Salvador, Bahia",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Salvador%2C%20Bahia"
   },
   "footer": {
-    "description": "Auto center em Marabá com 20 anos de experiência, transparência, negociação justa e mão de obra especializada para cuidar do seu carro.",
+    "description": "Energia solar em Salvador, Camaçari, Candeias e região para residências, empresas, manutenção, limpeza e adequação elétrica.",
     "links": [
-      {
-        "label": "Início",
-        "href": "#inicio"
-      },
-      {
-        "label": "Serviços",
-        "href": "#servicos"
-      },
-      {
-        "label": "Pacotes",
-        "href": "#pecas"
-      },
-      {
-        "label": "Sobre nós",
-        "href": "#sobre"
-      },
-      {
-        "label": "FAQ",
-        "href": "#faq"
-      },
-      {
-        "label": "Contato",
-        "href": "#contato"
-      },
-      {
-        "label": "WhatsApp",
-        "href": "https://wa.me/5594991027303?text=Ola!%20Quero%20falar%20com%20a%20Globo%20Auto%20Center."
-      }
+      { "label": "Início", "href": "#inicio" },
+      { "label": "Serviços", "href": "#servicos" },
+      { "label": "Soluções", "href": "#pecas" },
+      { "label": "Sobre nós", "href": "#sobre" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contato", "href": "#contato" },
+      { "label": "WhatsApp", "href": "https://wa.me/5571985234154?text=Ola!%20Quero%20falar%20com%20a%20SUN%20AMPER." }
     ]
   }
 }

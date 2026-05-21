@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)_minmax(0,0.9fr)]">
           <div>
-            <p className="text-[0.65rem] uppercase tracking-[0.35em] text-primary/80">Auto center</p>
+            <p className="text-[0.65rem] uppercase tracking-[0.35em] text-primary/80">Energia solar</p>
             <h2 className="mt-3 text-3xl font-semibold">{content.site.name}</h2>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-white/66">{content.footer.description}</p>
           </div>

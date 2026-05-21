@@ -4,9 +4,9 @@ import { motion } from "framer-motion"
 import content from "@/content.json"
 
 const showcaseImages = [
-  "/images/globo-oficina-sobre.png",
-  "/images/globo-freios-card.png",
-  "/images/globo-alinhamento-balanceamento-card.png",
+  "/images/sun-amper-banner.png",
+  "/images/sun-amper-inversor-deye.png",
+  "/images/sun-amper-manutencao.png",
 ]
 
 export function BeforeAfterSection() {

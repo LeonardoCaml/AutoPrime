@@ -17,7 +17,7 @@ pnpm build
 
 ## Página
 
-- Copy voltada ao motorista que procura manutenção automotiva em Marabá
-- Paleta baseada no Instagram: preto `#000000`, grafite `#050505`, branco `#ffffff`, vermelho `#e43b2f` e laranja `#ff5a1f`
-- Seções de serviços e pacotes com foco em revisão, suspensão, freios, elétrica, travas, vidros, ar-condicionado e diagnóstico
+- Copy voltada a clientes residenciais e empresas que procuram energia solar em Salvador e região
+- Paleta baseada em preto, branco, amarelo solar e verde de energia limpa
+- Seções de serviços e soluções com foco em instalação, manutenção, limpeza, laudo, quadros de segurança e adequação elétrica
 - Acessos operacionais não fazem parte do repositório

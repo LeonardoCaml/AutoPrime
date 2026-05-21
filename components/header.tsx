@@ -13,11 +13,11 @@ export function Header() {
         <div className="flex items-center justify-between gap-4">
           <a href="#inicio" className="flex h-14 w-36 shrink-0 items-center justify-start overflow-hidden">
             <Image
-              src="/images/logo-globo.png"
+              src="/images/sun-amper-logo.png"
               alt={`Logo da ${content.site.name}`}
               width={180}
               height={180}
-              className="h-14 w-14 origin-center translate-x-11 scale-[2.5] object-contain"
+              className="h-14 w-28 object-contain"
             />
           </a>
 

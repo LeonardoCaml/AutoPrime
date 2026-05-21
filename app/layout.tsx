@@ -22,11 +22,11 @@ const getSiteUrl = () => {
 const siteUrl = getSiteUrl()
 const gtmId = process.env.NEXT_PUBLIC_GTM_ID
 const metaPixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID
-const siteTitle = `${content.site.name} em ${content.site.city}, ${content.site.state} | Mecânica, suspensão e freios`
+const siteTitle = `${content.site.name} em ${content.site.city}, ${content.site.state} | Energia solar residencial e empresarial`
 const siteDescription = content.site.description
-const ogImageAlt = `${content.site.name} - mecânica automotiva em ${content.site.city}, ${content.site.state}`
+const ogImageAlt = `${content.site.name} - energia solar em ${content.site.city}, ${content.site.state}`
 const ogImageUrl = `${siteUrl}/og-image.png`
-const logoUrl = `${siteUrl}/images/logo-globo.png`
+const logoUrl = `${siteUrl}/images/sun-amper-logo.png`
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -34,22 +34,21 @@ export const metadata: Metadata = {
   title: siteTitle,
   description: siteDescription,
   keywords: [
-    "Globo Auto Center",
-    "mecânica em Marabá",
-    "auto center Marabá",
-    "oficina mecânica Marabá",
-    "suspensão Marabá",
-    "freios Marabá",
-    "correia dentada Marabá",
-    "sistema elétrico Marabá",
-    "travas elétricas Marabá",
-    "vidros elétricos Marabá",
-    "ar-condicionado automotivo Marabá",
-    "alinhamento e balanceamento Marabá",
+    "SUN AMPER",
+    "energia solar Salvador",
+    "energia solar Camaçari",
+    "energia solar Candeias",
+    "instalação energia solar Bahia",
+    "placas solares Salvador",
+    "manutenção energia solar",
+    "limpeza de placas solares",
+    "laudo de certificação energia solar",
+    "quadro de segurança solar",
+    "padrão bifásico trifásico energia solar",
   ],
   publisher: content.site.name,
   creator: content.site.name,
-  category: "Auto repair",
+  category: "Solar energy",
   alternates: { canonical: "/" },
   robots: {
     index: true,
@@ -82,7 +81,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#e43b2f",
+  themeColor: "#f6c21f",
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -93,16 +92,18 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     url: siteUrl,
     logo: logoUrl,
     image: ogImageUrl,
+    sameAs: [content.contact.instagram],
   }
 
   const localBusiness = {
     "@context": "https://schema.org",
-    "@type": "AutoRepair",
+    "@type": "LocalBusiness",
     name: content.site.name,
     url: siteUrl,
     image: ogImageUrl,
     telephone: `+${content.contact.whatsapp.number}`,
     email: content.contact.email,
+    sameAs: [content.contact.instagram],
     areaServed: content.site.location,
     priceRange: "$$",
     address: {
@@ -116,7 +117,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         opens: "08:00",
-        closes: "18:00",
+        closes: "17:30",
       },
       {
         "@type": "OpeningHoursSpecification",

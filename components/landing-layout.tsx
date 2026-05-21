@@ -22,7 +22,7 @@ import {
 const navigation = [
   { label: "INÍCIO", href: "#top" },
   { label: "SERVIÇOS", href: "#servicos" },
-  { label: "PACOTES", href: "#pecas" },
+  { label: "SOLUÇÕES", href: "#pecas" },
   { label: "SOBRE", href: "#sobre" },
   { label: "CONFIANÇA", href: "#clientes" },
   { label: "FAQ", href: "#faq" },
@@ -30,18 +30,18 @@ const navigation = [
 ]
 
 const differentials = [
-  "20 anos de experiência no mercado automotivo de Marabá.",
-  "Mão de obra especializada em mecânica, elétrica, travas, vidros, tração 4x4, injeção, ar-condicionado e alinhamento.",
-  "Orçamento explicado para você entender o que precisa ser feito antes de autorizar.",
-  "Prazo de entrega combinado para organizar sua rotina com mais tranquilidade.",
-  "Soluções completas para caminhonetes e carros populares em um só lugar.",
-  "Atendimento pelo WhatsApp ou direto na loja, com orientação clara desde o primeiro contato.",
+  "Mais de 4 anos de atuação em energia solar.",
+  "Projetos residenciais, comerciais e industriais com análise de consumo.",
+  "Orçamento explicado antes da instalação, manutenção ou adequação elétrica.",
+  "Atendimento em Salvador, Camaçari, Candeias e cidades próximas.",
+  "Serviços de instalação, limpeza, manutenção, laudo e quadros de segurança.",
+  "Atendimento pelo WhatsApp com retorno rápido para iniciar seu orçamento.",
 ]
 
 const whatsappMessages = {
-  general: "Olá! Vim do site e quero falar com a Globo Auto Center.",
-  schedule: "Olá! Vim do site e quero agendar uma avaliação na Globo Auto Center.",
-  services: "Olá! Vim do site e quero conhecer os serviços da Globo Auto Center.",
+  general: "Olá! Vim do site e quero falar com a SUN AMPER.",
+  schedule: "Olá! Vim do site e quero solicitar um orçamento de energia solar com a SUN AMPER.",
+  services: "Olá! Vim do site e quero conhecer os serviços da SUN AMPER.",
 }
 
 export function LandingLayout() {
@@ -56,11 +56,11 @@ export function LandingLayout() {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
           <a href="#top" className="flex h-14 w-36 shrink-0 items-center justify-start overflow-hidden">
             <Image
-              src="/images/logo-globo.png"
+              src="/images/sun-amper-logo.png"
               alt={`Logo da ${content.site.name}`}
               width={180}
               height={180}
-              className="h-14 w-14 origin-center translate-x-11 scale-[2.5] object-contain"
+              className="h-14 w-28 object-contain"
             />
           </a>
 
@@ -76,7 +76,7 @@ export function LandingLayout() {
             href={whatsappGeneralHref}
             target="_blank"
             rel="noreferrer"
-            className="pulse inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-3 py-2 text-sm font-semibold text-white transition-colors hover:bg-secondary sm:px-4"
+            className="pulse inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-3 py-2 text-sm font-semibold text-black transition-colors hover:bg-secondary hover:text-white sm:px-4"
           >
             <WhatsAppIcon className="h-4 w-4" />
             <span className="hidden sm:inline">Fale conosco</span>
@@ -135,7 +135,7 @@ export function LandingLayout() {
 
         <section id="sobre" className="relative isolate overflow-hidden border-b border-white/10 bg-black text-white">
           <Image
-            src="/images/globo-fachada-sobre.jpeg"
+            src="/images/sun-amper-banner.png"
             alt=""
             fill
             aria-hidden="true"
@@ -159,16 +159,16 @@ export function LandingLayout() {
               <div className="rounded-3xl border border-white/12 bg-black/38 p-6 backdrop-blur-sm">
                 <div className="space-y-5">
                   <article className="rounded-2xl border border-white/12 bg-white/10 p-4">
-                    <p className="text-xs uppercase tracking-[0.18em] text-primary/80">Transparência</p>
-                    <p className="mt-2 text-sm text-white/82">Você entende o diagnóstico, a prioridade do serviço e o orçamento antes de autorizar.</p>
+                    <p className="text-xs uppercase tracking-[0.18em] text-primary/80">Clareza</p>
+                    <p className="mt-2 text-sm text-white/82">Você entende consumo, proposta, instalação e próximos passos antes de contratar.</p>
                   </article>
                   <article className="rounded-2xl border border-white/12 bg-white/10 p-4">
-                    <p className="text-xs uppercase tracking-[0.18em] text-primary/80">Especialistas</p>
-                    <p className="mt-2 text-sm text-white/82">Equipe para mecânica, elétrica, travas, vidros, ar-condicionado, injeção e alinhamento em carros populares e caminhonetes.</p>
+                    <p className="text-xs uppercase tracking-[0.18em] text-primary/80">Energia solar</p>
+                    <p className="mt-2 text-sm text-white/82">Projetos para residências, empresas, indústrias e construtoras conforme análise técnica.</p>
                   </article>
                   <article className="rounded-2xl border border-white/12 bg-white/10 p-4">
                     <p className="text-xs uppercase tracking-[0.18em] text-primary/80">Atendimento</p>
-                    <p className="mt-2 text-sm text-white/82">A equipe orienta, combina avaliação, explica o orçamento e executa após sua autorização.</p>
+                    <p className="mt-2 text-sm text-white/82">A equipe orienta pelo WhatsApp, avalia sua conta de energia e agenda visita técnica quando necessário.</p>
                   </article>
                 </div>
               </div>
@@ -210,7 +210,7 @@ export function LandingLayout() {
               href={whatsappGeneralHref}
               target="_blank"
               rel="noreferrer"
-              className="pulse mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-secondary"
+              className="pulse mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-black transition-colors hover:bg-secondary hover:text-white"
             >
               {content.finalCta.primaryButton.label}
               <ArrowRight className="h-4 w-4" />
@@ -267,7 +267,7 @@ export function LandingLayout() {
                       rel="noreferrer"
                       className="mt-1 block text-base text-black/86 transition-colors hover:text-primary"
                     >
-                      @globo_autocenter_
+                      @sunamper.bt
                     </a>
                   </div>
                 </article>
@@ -302,7 +302,7 @@ export function LandingLayout() {
                   href={whatsappGeneralHref}
                   target="_blank"
                   rel="noreferrer"
-                  className="pulse inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-secondary"
+                  className="pulse inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-black transition-colors hover:bg-secondary hover:text-white"
                 >
                   Falar no WhatsApp
                   <ArrowRight className="h-4 w-4" />
@@ -327,11 +327,11 @@ export function LandingLayout() {
           <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-4">
             <div>
               <Image
-                src="/images/logo-globo.png"
+                src="/images/sun-amper-logo.png"
                 alt={`Logo da ${content.site.name}`}
                 width={180}
                 height={180}
-                className="h-16 w-16 object-contain"
+                className="h-16 w-32 object-contain"
               />
               <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/62">
                 {content.footer.description}
@@ -365,47 +365,32 @@ export function LandingLayout() {
               <ul className="mt-4 space-y-2 text-sm text-white/78">
                 <li>
                   <a href="#servicos" className="transition-colors hover:text-white">
-                    Suspensão
+                    Instalação residencial
                   </a>
                 </li>
                 <li>
                   <a href="#servicos" className="transition-colors hover:text-white">
-                    Freios
+                    Empresas e indústrias
                   </a>
                 </li>
                 <li>
                   <a href="#servicos" className="transition-colors hover:text-white">
-                    Alinhamento e balanceamento
+                    Manutenção e limpeza
                   </a>
                 </li>
                 <li>
                   <a href="#servicos" className="transition-colors hover:text-white">
-                    Balanceamento
+                    Laudo de certificação
                   </a>
                 </li>
                 <li>
                   <a href="#servicos" className="transition-colors hover:text-white">
-                    Correia dentada
+                    Quadro de segurança
                   </a>
                 </li>
                 <li>
                   <a href="#servicos" className="transition-colors hover:text-white">
-                    Ar-condicionado
-                  </a>
-                </li>
-                <li>
-                  <a href="#servicos" className="transition-colors hover:text-white">
-                    Revisão de óleo e filtros
-                  </a>
-                </li>
-                <li>
-                  <a href="#servicos" className="transition-colors hover:text-white">
-                    Sistema elétrico, travas e vidros
-                  </a>
-                </li>
-                <li>
-                  <a href="#servicos" className="transition-colors hover:text-white">
-                    Tração 4x4
+                    Padrão bifásico e trifásico
                   </a>
                 </li>
               </ul>
@@ -425,7 +410,7 @@ export function LandingLayout() {
                 <p className="flex items-start gap-2">
                   <Instagram className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
                   <a href={content.contact.instagram} target="_blank" rel="noreferrer" className="transition-colors hover:text-white">
-                    @globo_autocenter_
+                    @sunamper.bt
                   </a>
                 </p>
                 <p className="flex items-start gap-2">
