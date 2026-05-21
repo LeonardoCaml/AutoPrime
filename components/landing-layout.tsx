@@ -1,0 +1,460 @@
+import Image from "next/image"
+import content from "@/content.json"
+import { createWhatsAppHref } from "@/lib/constants"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { ReviewsCarousel } from "@/components/reviews-carousel"
+import { WhatsAppIcon } from "@/components/ui/whatsapp-icon"
+import { Hero } from "@/components/hero"
+import { Services } from "@/components/services"
+import { Products } from "@/components/products"
+import {
+  ArrowRight,
+  CalendarClock,
+  Instagram,
+  Mail,
+  MapPin,
+  Phone,
+  ShieldCheck,
+  Sparkles,
+  Wrench,
+} from "lucide-react"
+
+const navigation = [
+  { label: "INÍCIO", href: "#top" },
+  { label: "SERVIÇOS", href: "#servicos" },
+  { label: "PACOTES", href: "#pecas" },
+  { label: "SOBRE", href: "#sobre" },
+  { label: "CONFIANÇA", href: "#clientes" },
+  { label: "FAQ", href: "#faq" },
+  { label: "CONTATO", href: "#contato" },
+]
+
+const differentials = [
+  "20 anos de experiência no mercado automotivo de Marabá.",
+  "Mão de obra especializada em mecânica, elétrica, travas, vidros, tração 4x4, injeção, ar-condicionado e alinhamento.",
+  "Orçamento explicado para você entender o que precisa ser feito antes de autorizar.",
+  "Prazo de entrega combinado para organizar sua rotina com mais tranquilidade.",
+  "Soluções completas para caminhonetes e carros populares em um só lugar.",
+  "Atendimento pelo WhatsApp ou direto na loja, com orientação clara desde o primeiro contato.",
+]
+
+const whatsappMessages = {
+  general: "Olá! Vim do site e quero falar com a Globo Auto Center.",
+  schedule: "Olá! Vim do site e quero agendar uma avaliação na Globo Auto Center.",
+  services: "Olá! Vim do site e quero conhecer os serviços da Globo Auto Center.",
+}
+
+export function LandingLayout() {
+  const whatsappGeneralHref = createWhatsAppHref(whatsappMessages.general)
+  const whatsappScheduleHref = createWhatsAppHref(whatsappMessages.schedule)
+  const whatsappServicesHref = createWhatsAppHref(whatsappMessages.services)
+  const mapEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(content.contact.mapQuery)}&z=13&output=embed`
+
+  return (
+    <div id="top" className="bg-black text-white">
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-black/85 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+          <a href="#top" className="flex h-14 w-36 shrink-0 items-center justify-start overflow-hidden">
+            <Image
+              src="/images/logo-globo.png"
+              alt={`Logo da ${content.site.name}`}
+              width={180}
+              height={180}
+              className="h-14 w-14 origin-center translate-x-11 scale-[2.5] object-contain"
+            />
+          </a>
+
+          <nav className="hidden items-center gap-6 text-xs font-semibold tracking-[0.16em] text-white/72 lg:flex">
+            {navigation.map((item) => (
+              <a key={item.label} href={item.href} className="transition-colors hover:text-white">
+                {item.label}
+              </a>
+            ))}
+          </nav>
+
+          <a
+            href={whatsappGeneralHref}
+            target="_blank"
+            rel="noreferrer"
+            className="pulse inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-3 py-2 text-sm font-semibold text-white transition-colors hover:bg-secondary sm:px-4"
+          >
+            <WhatsAppIcon className="h-4 w-4" />
+            <span className="hidden sm:inline">Fale conosco</span>
+          </a>
+        </div>
+
+        <div className="border-t border-white/10 px-4 py-2 lg:hidden">
+          <nav className="flex gap-4 overflow-x-auto text-xs font-semibold tracking-[0.14em] text-white/72 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            {navigation.map((item) => (
+              <a key={`mobile-${item.label}`} href={item.href} className="whitespace-nowrap transition-colors hover:text-white">
+                {item.label}
+              </a>
+            ))}
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <Hero whatsappScheduleHref={whatsappScheduleHref} />
+        <Services whatsappServicesHref={whatsappServicesHref} whatsappGeneralHref={whatsappGeneralHref} />
+        <Products />
+
+        <section className="border-b border-white/10 bg-black">
+          <div className="mx-auto max-w-7xl px-4 py-18 sm:px-6 md:py-24">
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary/85">Diferenciais</p>
+              <h2 className="mt-4 text-3xl font-semibold md:text-5xl">Por que escolher a {content.site.name}</h2>
+            </div>
+
+            <div className="mt-12 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              {differentials.map((item, index) => (
+                <article key={item} className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-full bg-primary/18 text-primary">
+                    {index % 3 === 0 && <Wrench className="h-5 w-5" />}
+                    {index % 3 === 1 && <ShieldCheck className="h-5 w-5" />}
+                    {index % 3 === 2 && <Sparkles className="h-5 w-5" />}
+                  </div>
+                  <p className="mt-4 text-base leading-relaxed text-white/84">{item}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="clientes" className="border-b border-white/10 bg-[#050505]">
+          <div className="mx-auto max-w-7xl px-4 py-18 sm:px-6 md:py-24">
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary/85">Confiança</p>
+              <h2 className="mt-4 text-3xl font-semibold md:text-5xl">{content.socialProof.title}</h2>
+              <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-white/68">{content.socialProof.text}</p>
+            </div>
+
+            <ReviewsCarousel testimonials={content.socialProof.testimonials} />
+          </div>
+        </section>
+
+        <section id="sobre" className="relative isolate overflow-hidden border-b border-white/10 bg-black text-white">
+          <Image
+            src="/images/globo-fachada-sobre.jpeg"
+            alt=""
+            fill
+            aria-hidden="true"
+            className="-z-20 object-cover object-center"
+          />
+          <div className="absolute inset-0 -z-10 bg-black/10" />
+          <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(0,0,0,0.94)_0%,rgba(0,0,0,0.78)_46%,rgba(0,0,0,0.86)_100%)]" />
+
+          <div className="relative mx-auto max-w-7xl px-4 py-18 sm:px-6 md:py-24">
+            <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary/85">{content.about.eyebrow}</p>
+                <h2 className="mt-4 text-3xl font-semibold md:text-5xl">{content.about.title}</h2>
+                <div className="mt-5 max-w-3xl space-y-4 text-base leading-relaxed text-white/78">
+                  {content.about.paragraphs.map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+                </div>
+              </div>
+
+              <div className="rounded-3xl border border-white/12 bg-black/38 p-6 backdrop-blur-sm">
+                <div className="space-y-5">
+                  <article className="rounded-2xl border border-white/12 bg-white/10 p-4">
+                    <p className="text-xs uppercase tracking-[0.18em] text-primary/80">Transparência</p>
+                    <p className="mt-2 text-sm text-white/82">Você entende o diagnóstico, a prioridade do serviço e o orçamento antes de autorizar.</p>
+                  </article>
+                  <article className="rounded-2xl border border-white/12 bg-white/10 p-4">
+                    <p className="text-xs uppercase tracking-[0.18em] text-primary/80">Especialistas</p>
+                    <p className="mt-2 text-sm text-white/82">Equipe para mecânica, elétrica, travas, vidros, ar-condicionado, injeção e alinhamento em carros populares e caminhonetes.</p>
+                  </article>
+                  <article className="rounded-2xl border border-white/12 bg-white/10 p-4">
+                    <p className="text-xs uppercase tracking-[0.18em] text-primary/80">Atendimento</p>
+                    <p className="mt-2 text-sm text-white/82">A equipe orienta, combina avaliação, explica o orçamento e executa após sua autorização.</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq" className="border-b border-white/10 bg-[#050505]">
+          <div className="mx-auto max-w-4xl px-4 py-18 sm:px-6 md:py-24">
+            <div className="text-center">
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary/85">FAQ</p>
+              <h2 className="mt-4 text-3xl font-semibold md:text-5xl">Perguntas frequentes</h2>
+            </div>
+
+            <Accordion type="single" collapsible className="mt-10 space-y-3">
+              {content.faq.items.slice(0, 6).map((faq, index) => (
+                <AccordionItem
+                  key={faq.q}
+                  value={`faq-${index}`}
+                  className="rounded-2xl border border-white/10 bg-white/[0.03] px-5"
+                >
+                  <AccordionTrigger className="text-left text-base font-semibold text-white">{faq.q}</AccordionTrigger>
+                  <AccordionContent className="text-base leading-relaxed text-white/68">{faq.a}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </section>
+
+        <section className="border-b border-white/10 bg-black">
+          <div className="mx-auto max-w-7xl px-4 py-18 text-center sm:px-6 md:py-24">
+            <h2 className="mx-auto max-w-4xl text-3xl font-semibold md:text-5xl">
+              {content.finalCta.title}
+            </h2>
+            <p className="mx-auto mt-4 max-w-3xl text-base text-white/68">
+              {content.finalCta.text}
+            </p>
+            <a
+              href={whatsappGeneralHref}
+              target="_blank"
+              rel="noreferrer"
+              className="pulse mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-secondary"
+            >
+              {content.finalCta.primaryButton.label}
+              <ArrowRight className="h-4 w-4" />
+            </a>
+          </div>
+        </section>
+
+        <section id="contato" className="bg-white text-black">
+          <div className="mx-auto grid max-w-7xl items-stretch gap-8 px-4 py-18 sm:px-6 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] md:py-24">
+            <div className="relative min-h-[320px] overflow-hidden rounded-3xl border border-black/12 bg-white sm:min-h-[420px] lg:min-h-[560px]">
+              <iframe
+                title={`Localização da ${content.site.name}`}
+                src={mapEmbedUrl}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="absolute inset-0 h-full w-full border-0"
+              />
+            </div>
+
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary/85">Contato</p>
+              <h2 className="mt-4 text-3xl font-semibold md:text-5xl">Atendimento direto e rápido</h2>
+
+              <div className="mt-8 space-y-4">
+                <article className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[#f6f6f6] p-4">
+                  <div className="mt-1 rounded-full bg-primary/18 p-2 text-primary">
+                    <Phone className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-black/56">WhatsApp</h3>
+                    <p className="mt-1 text-base text-black/86">{content.contact.whatsapp.numberDisplay}</p>
+                  </div>
+                </article>
+
+                <article className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[#f6f6f6] p-4">
+                  <div className="mt-1 rounded-full bg-primary/18 p-2 text-primary">
+                    <Mail className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-black/56">E-mail</h3>
+                    <p className="mt-1 text-base text-black/86">{content.contact.email}</p>
+                  </div>
+                </article>
+
+                <article className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[#f6f6f6] p-4">
+                  <div className="mt-1 rounded-full bg-primary/18 p-2 text-primary">
+                    <Instagram className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-black/56">Instagram</h3>
+                    <a
+                      href={content.contact.instagram}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-1 block text-base text-black/86 transition-colors hover:text-primary"
+                    >
+                      @globo_autocenter_
+                    </a>
+                  </div>
+                </article>
+
+                <article className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[#f6f6f6] p-4">
+                  <div className="mt-1 rounded-full bg-primary/18 p-2 text-primary">
+                    <MapPin className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-black/56">Localização</h3>
+                    <p className="mt-1 text-base text-black/86">{content.contact.location}</p>
+                  </div>
+                </article>
+
+                <article className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[#f6f6f6] p-4">
+                  <div className="mt-1 rounded-full bg-primary/18 p-2 text-primary">
+                    <CalendarClock className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-black/56">Horário</h3>
+                    <p className="mt-1 text-base text-black/86">
+                      {content.contact.hours.weekdays}
+                      <br />
+                      {content.contact.hours.saturday}
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a
+                  href={whatsappGeneralHref}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="pulse inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-secondary"
+                >
+                  Falar no WhatsApp
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+                <a
+                  href={content.contact.mapLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="pulse inline-flex items-center gap-2 rounded-full border border-black/20 px-6 py-3 text-sm font-semibold text-black transition-colors hover:border-black/40"
+                >
+                  Ver no Google Maps
+                  <MapPin className="h-4 w-4" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer className="border-t border-white/10 bg-black">
+        <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
+          <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-4">
+            <div>
+              <Image
+                src="/images/logo-globo.png"
+                alt={`Logo da ${content.site.name}`}
+                width={180}
+                height={180}
+                className="h-16 w-16 object-contain"
+              />
+              <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/62">
+                {content.footer.description}
+              </p>
+              <a
+                href={whatsappGeneralHref}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80"
+              >
+                Fale conosco
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-white/56">Navegação</h3>
+              <ul className="mt-4 space-y-2 text-sm text-white/78">
+                {navigation.map((item) => (
+                  <li key={`footer-${item.label}`}>
+                    <a href={item.href} className="transition-colors hover:text-white">
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-white/56">Serviços</h3>
+              <ul className="mt-4 space-y-2 text-sm text-white/78">
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Suspensão
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Freios
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Alinhamento e balanceamento
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Balanceamento
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Correia dentada
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Ar-condicionado
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Revisão de óleo e filtros
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Sistema elétrico, travas e vidros
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicos" className="transition-colors hover:text-white">
+                    Tração 4x4
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-white/56">Contato</h3>
+              <div className="mt-4 space-y-3 text-sm text-white/78">
+                <p className="flex items-start gap-2">
+                  <Phone className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
+                  <span>{content.contact.whatsapp.numberDisplay}</span>
+                </p>
+                <p className="flex items-start gap-2">
+                  <Mail className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
+                  <span>{content.contact.email}</span>
+                </p>
+                <p className="flex items-start gap-2">
+                  <Instagram className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
+                  <a href={content.contact.instagram} target="_blank" rel="noreferrer" className="transition-colors hover:text-white">
+                    @globo_autocenter_
+                  </a>
+                </p>
+                <p className="flex items-start gap-2">
+                  <MapPin className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
+                  <span>{content.contact.location}</span>
+                </p>
+                <p className="flex items-start gap-2">
+                  <CalendarClock className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
+                  <span>
+                    {content.contact.hours.weekdays}
+                    <br />
+                    {content.contact.hours.saturday}
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <a
+        href={whatsappGeneralHref}
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Falar no WhatsApp"
+        className="fixed bottom-6 right-6 z-50 hidden h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_20px_46px_rgba(37,211,102,0.4)] transition-transform hover:scale-[1.04] hover:bg-[#1ebe5d] sm:inline-flex"
+      >
+        <WhatsAppIcon className="h-8 w-8" />
+      </a>
+    </div>
+  )
+}
