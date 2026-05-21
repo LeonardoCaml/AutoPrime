@@ -19,7 +19,7 @@ export function HeroSection() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
         style={{ backgroundImage: "url('/images/sun-amper-banner.png')" }}
       />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(246,194,31,0.24),transparent_28%),radial-gradient(circle_at_80%_10%,rgba(255,255,255,0.08),transparent_20%),linear-gradient(120deg,rgba(0,0,0,0.96),rgba(0,0,0,0.82),rgba(8,20,15,0.74))]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(63,127,215,0.28),transparent_28%),radial-gradient(circle_at_80%_10%,rgba(255,255,255,0.08),transparent_20%),linear-gradient(120deg,rgba(25,27,75,0.96),rgba(0,0,0,0.82),rgba(25,27,75,0.74))]" />
 
       <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-24">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-center">

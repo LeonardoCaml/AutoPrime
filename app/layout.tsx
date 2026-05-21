@@ -26,7 +26,7 @@ const siteTitle = `${content.site.name} em ${content.site.city}, ${content.site.
 const siteDescription = content.site.description
 const ogImageAlt = `${content.site.name} - energia solar em ${content.site.city}, ${content.site.state}`
 const ogImageUrl = `${siteUrl}/og-image.png`
-const logoUrl = `${siteUrl}/images/sun-amper-logo.png`
+const logoUrl = `${siteUrl}/images/sun-amper-logo.jpg`
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#f6c21f",
+  themeColor: "#191b4b",
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -102,7 +102,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     url: siteUrl,
     image: ogImageUrl,
     telephone: `+${content.contact.whatsapp.number}`,
-    email: content.contact.email,
+    ...(content.contact.email ? { email: content.contact.email } : {}),
     sameAs: [content.contact.instagram],
     areaServed: content.site.location,
     priceRange: "$$",

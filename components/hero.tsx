@@ -10,7 +10,7 @@ export function Hero({ whatsappScheduleHref }: HeroProps) {
   return (
     <section className="relative overflow-hidden border-b border-white/10 bg-black">
       <Image
-        src="/images/sun-amper-banner.png"
+        src="/images/sun-amper-hero-roof.png"
         alt="Sistema de energia solar"
         fill
         priority
@@ -19,7 +19,7 @@ export function Hero({ whatsappScheduleHref }: HeroProps) {
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/74 to-black/48" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/42 to-black/18" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(246,194,31,0.32),transparent_68%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(63,127,215,0.36),transparent_68%)]" />
 
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
         <div className="max-w-3xl">
@@ -40,7 +40,7 @@ export function Hero({ whatsappScheduleHref }: HeroProps) {
               href={whatsappScheduleHref}
               target="_blank"
               rel="noreferrer"
-              className="pulse inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-black transition-colors hover:bg-secondary hover:text-white"
+              className="pulse inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-secondary hover:text-[#191b4b]"
             >
               {content.hero.ctaSecondary.label}
               <ArrowRight className="h-4 w-4" />

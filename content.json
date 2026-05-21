@@ -11,14 +11,13 @@
   "navigation": [
     { "label": "Início", "href": "#inicio" },
     { "label": "Serviços", "href": "#servicos" },
-    { "label": "Soluções", "href": "#pecas" },
     { "label": "Sobre nós", "href": "#sobre" },
     { "label": "Diferenciais", "href": "#diferenciais" },
     { "label": "FAQ", "href": "#faq" },
     { "label": "Contato", "href": "#contato" }
   ],
   "hero": {
-    "title": "Energia solar para reduzir sua conta de luz com segurança e projeto bem explicado.",
+    "title": "A Nº 1 em economia de energia solar em Salvador e região.",
     "subtitle": "Instalação residencial, projetos para empresas, manutenção, limpeza, laudo de certificação e adequação elétrica em Salvador, Camaçari, Candeias e região.",
     "ctaPrimary": {
       "label": "Falar no WhatsApp",
@@ -218,32 +217,32 @@
     "reviewCount": 0,
     "testimonials": [
       {
-        "name": "Cliente residencial",
+        "name": "Marcos Vinícius",
         "time": "cliente",
         "text": "O atendimento explicou o consumo, o tamanho do sistema e os próximos passos antes do orçamento."
       },
       {
-        "name": "Cliente empresarial",
+        "name": "Juliana Carvalho",
         "time": "cliente",
         "text": "A análise ajudou a entender como a energia solar poderia reduzir custos fixos da empresa."
       },
       {
-        "name": "Cliente de manutenção",
+        "name": "Roberto Almeida",
         "time": "cliente",
         "text": "A limpeza e a verificação do sistema deram mais segurança sobre a geração das placas."
       },
       {
-        "name": "Cliente de Salvador",
+        "name": "Patrícia Nascimento",
         "time": "cliente",
         "text": "O orçamento foi apresentado com clareza e a equipe orientou cada etapa da instalação."
       },
       {
-        "name": "Cliente de Camaçari",
+        "name": "André Luiz",
         "time": "cliente",
         "text": "A visita técnica ajudou a confirmar o melhor caminho para instalar o sistema."
       },
       {
-        "name": "Cliente comercial",
+        "name": "Fernanda Reis",
         "time": "cliente",
         "text": "A equipe foi objetiva ao explicar prazos, homologação e cuidados após a instalação."
       }
@@ -315,13 +314,13 @@
   "contact": {
     "whatsapp": {
       "label": "Fale no WhatsApp",
-      "numberDisplay": "71 98523-4154",
+      "numberDisplay": "(71) 98523-4154",
       "number": "5571985234154",
       "generalMessage": "Olá! Quero falar com a SUN AMPER.",
       "evaluationMessage": "Olá! Quero solicitar uma avaliação de energia solar com a SUN AMPER.",
       "quoteMessage": "Olá! Quero pedir um orçamento com a SUN AMPER."
     },
-    "email": "sunamper10mkt@gmail.com",
+    "email": "",
     "instagram": "https://www.instagram.com/sunamper.bt/",
     "location": "Salvador, Camaçari, Candeias e região - BA",
     "hours": {
@@ -337,7 +336,6 @@
     "links": [
       { "label": "Início", "href": "#inicio" },
       { "label": "Serviços", "href": "#servicos" },
-      { "label": "Soluções", "href": "#pecas" },
       { "label": "Sobre nós", "href": "#sobre" },
       { "label": "FAQ", "href": "#faq" },
       { "label": "Contato", "href": "#contato" },

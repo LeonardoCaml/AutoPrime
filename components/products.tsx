@@ -24,13 +24,13 @@ export function Products() {
             <article
               key={product.title}
               className={cn(
-                "relative min-h-[260px] overflow-hidden rounded-3xl border border-black/10 bg-[linear-gradient(180deg,#08140f_0%,#152412_100%)]",
+                "relative min-h-[260px] overflow-hidden rounded-3xl border border-black/10 bg-[linear-gradient(180deg,#12143a_0%,#191b4b_100%)]",
                 isLast && isOddOnTablet && "sm:col-span-2 sm:mx-auto sm:w-full sm:max-w-[calc((100%_-_1.25rem)/2)]",
                 isLast && isOddOnDesktop && "xl:col-span-1 xl:col-start-2 xl:max-w-none",
               )}
             >
               {product.image ? <Image src={product.image} alt={product.title} fill className="object-cover" /> : null}
-              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.5)_0%,rgba(0,0,0,0.72)_55%,rgba(0,0,0,0.9)_100%),radial-gradient(circle_at_top_right,rgba(246,194,31,0.28),transparent_34%)]" />
+              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(10,12,45,0.44)_0%,rgba(10,12,45,0.74)_55%,rgba(10,12,45,0.92)_100%),radial-gradient(circle_at_top_right,rgba(63,127,215,0.34),transparent_34%)]" />
 
               <div className="relative flex h-full flex-col justify-between p-6">
                 <div>
@@ -44,7 +44,7 @@ export function Products() {
 
                 <Button
                   asChild
-                  className="mt-6 w-fit rounded-full bg-primary px-5 py-3 text-sm font-semibold text-black shadow-[0_18px_34px_-22px_rgba(246,194,31,0.85)] hover:bg-secondary"
+                  className="mt-6 w-fit rounded-full bg-primary px-5 py-3 text-sm font-semibold text-white shadow-[0_18px_34px_-22px_rgba(63,127,215,0.9)] hover:bg-secondary hover:text-[#191b4b]"
                 >
                   <a href={createWhatsAppHref(product.ctaMessage)} target="_blank" rel="noreferrer">
                     {product.ctaLabel}

@@ -6,7 +6,6 @@ import { ReviewsCarousel } from "@/components/reviews-carousel"
 import { WhatsAppIcon } from "@/components/ui/whatsapp-icon"
 import { Hero } from "@/components/hero"
 import { Services } from "@/components/services"
-import { Products } from "@/components/products"
 import {
   ArrowRight,
   CalendarClock,
@@ -22,7 +21,6 @@ import {
 const navigation = [
   { label: "INÍCIO", href: "#top" },
   { label: "SERVIÇOS", href: "#servicos" },
-  { label: "SOLUÇÕES", href: "#pecas" },
   { label: "SOBRE", href: "#sobre" },
   { label: "CONFIANÇA", href: "#clientes" },
   { label: "FAQ", href: "#faq" },
@@ -56,7 +54,7 @@ export function LandingLayout() {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
           <a href="#top" className="flex h-14 w-36 shrink-0 items-center justify-start overflow-hidden">
             <Image
-              src="/images/sun-amper-logo.png"
+              src="/images/sun-amper-logo.jpg"
               alt={`Logo da ${content.site.name}`}
               width={180}
               height={180}
@@ -76,7 +74,7 @@ export function LandingLayout() {
             href={whatsappGeneralHref}
             target="_blank"
             rel="noreferrer"
-            className="pulse inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-3 py-2 text-sm font-semibold text-black transition-colors hover:bg-secondary hover:text-white sm:px-4"
+            className="pulse inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-3 py-2 text-sm font-semibold text-white transition-colors hover:bg-secondary hover:text-[#191b4b] sm:px-4"
           >
             <WhatsAppIcon className="h-4 w-4" />
             <span className="hidden sm:inline">Fale conosco</span>
@@ -97,7 +95,6 @@ export function LandingLayout() {
       <main>
         <Hero whatsappScheduleHref={whatsappScheduleHref} />
         <Services whatsappServicesHref={whatsappServicesHref} whatsappGeneralHref={whatsappGeneralHref} />
-        <Products />
 
         <section className="border-b border-white/10 bg-black">
           <div className="mx-auto max-w-7xl px-4 py-18 sm:px-6 md:py-24">
@@ -210,7 +207,7 @@ export function LandingLayout() {
               href={whatsappGeneralHref}
               target="_blank"
               rel="noreferrer"
-              className="pulse mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-black transition-colors hover:bg-secondary hover:text-white"
+              className="pulse mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-secondary hover:text-[#191b4b]"
             >
               {content.finalCta.primaryButton.label}
               <ArrowRight className="h-4 w-4" />
@@ -245,15 +242,17 @@ export function LandingLayout() {
                   </div>
                 </article>
 
-                <article className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[#f6f6f6] p-4">
-                  <div className="mt-1 rounded-full bg-primary/18 p-2 text-primary">
-                    <Mail className="h-4 w-4" />
-                  </div>
-                  <div>
-                    <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-black/56">E-mail</h3>
-                    <p className="mt-1 text-base text-black/86">{content.contact.email}</p>
-                  </div>
-                </article>
+                {content.contact.email ? (
+                  <article className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[#f6f6f6] p-4">
+                    <div className="mt-1 rounded-full bg-primary/18 p-2 text-primary">
+                      <Mail className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-black/56">E-mail</h3>
+                      <p className="mt-1 text-base text-black/86">{content.contact.email}</p>
+                    </div>
+                  </article>
+                ) : null}
 
                 <article className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[#f6f6f6] p-4">
                   <div className="mt-1 rounded-full bg-primary/18 p-2 text-primary">
@@ -302,7 +301,7 @@ export function LandingLayout() {
                   href={whatsappGeneralHref}
                   target="_blank"
                   rel="noreferrer"
-                  className="pulse inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-black transition-colors hover:bg-secondary hover:text-white"
+                  className="pulse inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-secondary hover:text-[#191b4b]"
                 >
                   Falar no WhatsApp
                   <ArrowRight className="h-4 w-4" />
@@ -327,7 +326,7 @@ export function LandingLayout() {
           <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-4">
             <div>
               <Image
-                src="/images/sun-amper-logo.png"
+              src="/images/sun-amper-logo.jpg"
                 alt={`Logo da ${content.site.name}`}
                 width={180}
                 height={180}
@@ -403,10 +402,12 @@ export function LandingLayout() {
                   <Phone className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
                   <span>{content.contact.whatsapp.numberDisplay}</span>
                 </p>
-                <p className="flex items-start gap-2">
-                  <Mail className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
-                  <span>{content.contact.email}</span>
-                </p>
+                {content.contact.email ? (
+                  <p className="flex items-start gap-2">
+                    <Mail className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
+                    <span>{content.contact.email}</span>
+                  </p>
+                ) : null}
                 <p className="flex items-start gap-2">
                   <Instagram className="mt-0.5 h-4 min-h-4 w-4 min-w-4 text-primary" />
                   <a href={content.contact.instagram} target="_blank" rel="noreferrer" className="transition-colors hover:text-white">

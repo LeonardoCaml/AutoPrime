@@ -28,7 +28,7 @@ export function Footer() {
             <h3 className="text-sm font-semibold uppercase tracking-[0.25em] text-white/60">Contato</h3>
             <div className="mt-5 space-y-4 text-base text-white/82">
               <p>WhatsApp: {content.contact.whatsapp.numberDisplay}</p>
-              <p>E-mail: {content.contact.email}</p>
+              {content.contact.email ? <p>E-mail: {content.contact.email}</p> : null}
               <p>Localização: {content.contact.location}</p>
               <p>{content.contact.hours.weekdays}</p>
               <p>{content.contact.hours.saturday}</p>
