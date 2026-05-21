@@ -11,13 +11,13 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur">
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between gap-4">
-          <a href="#inicio" className="flex h-14 w-36 shrink-0 items-center justify-start overflow-hidden">
+          <a href="#inicio" className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/12 bg-[#191b4b]">
             <Image
               src="/images/sun-amper-logo.jpg"
               alt={`Logo da ${content.site.name}`}
               width={180}
               height={180}
-              className="h-14 w-28 object-contain"
+              className="h-full w-full rounded-full object-cover"
             />
           </a>
 
