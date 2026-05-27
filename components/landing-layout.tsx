@@ -31,7 +31,7 @@ const differentials = [
   "Mais de 4 anos de atuação em energia solar.",
   "Projetos residenciais, comerciais e industriais com análise de consumo.",
   "Orçamento explicado antes da instalação, manutenção ou adequação elétrica.",
-  "Atendimento em Salvador, Camaçari, Candeias e cidades próximas.",
+  "Atendimento na BA e região metropolitana.",
   "Serviços de instalação, limpeza, manutenção, laudo e quadros de segurança.",
   "Atendimento pelo WhatsApp com retorno rápido para iniciar seu orçamento.",
 ]

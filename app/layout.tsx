@@ -22,9 +22,9 @@ const getSiteUrl = () => {
 const siteUrl = getSiteUrl()
 const gtmId = process.env.NEXT_PUBLIC_GTM_ID
 const metaPixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID
-const siteTitle = `${content.site.name} em ${content.site.city}, ${content.site.state} | Energia solar residencial e empresarial`
+const siteTitle = `${content.site.name} na BA e região metropolitana | Energia solar residencial e empresarial`
 const siteDescription = content.site.description
-const ogImageAlt = `${content.site.name} - energia solar em ${content.site.city}, ${content.site.state}`
+const ogImageAlt = `${content.site.name} - energia solar na BA e região metropolitana`
 const ogImageUrl = `${siteUrl}/og-image.png`
 const logoUrl = `${siteUrl}/images/sun-amper-logo.jpg`
 
@@ -35,11 +35,10 @@ export const metadata: Metadata = {
   description: siteDescription,
   keywords: [
     "SUN AMPER",
-    "energia solar Salvador",
-    "energia solar Camaçari",
-    "energia solar Candeias",
+    "energia solar BA",
+    "energia solar região metropolitana",
     "instalação energia solar Bahia",
-    "placas solares Salvador",
+    "placas solares BA",
     "manutenção energia solar",
     "limpeza de placas solares",
     "laudo de certificação energia solar",

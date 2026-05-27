@@ -2,8 +2,8 @@
   "site": {
     "name": "SUN AMPER",
     "tagline": "Energia solar com projeto claro, instalação segura e atendimento próximo.",
-    "description": "Energia solar em Salvador, Camaçari, Candeias e região para residências, empresas, indústrias e construtoras, com instalação, manutenção, limpeza, laudo de certificação e adequação elétrica.",
-    "location": "Salvador, Camaçari, Candeias e raio de 40 km de Salvador, BA, Brasil",
+    "description": "Energia solar na BA e região metropolitana para residências, empresas, indústrias e construtoras, com instalação, manutenção, limpeza, laudo de certificação e adequação elétrica.",
+    "location": "BA e região metropolitana, Brasil",
     "city": "Salvador",
     "state": "BA",
     "experienceYears": 4
@@ -17,8 +17,8 @@
     { "label": "Contato", "href": "#contato" }
   ],
   "hero": {
-    "title": "A Nº 1 em economia de energia solar em Salvador e região.",
-    "subtitle": "Instalação residencial, projetos para empresas, manutenção, limpeza, laudo de certificação e adequação elétrica em Salvador, Camaçari, Candeias e região.",
+    "title": "A Nº 1 em economia de energia solar na BA e região metropolitana.",
+    "subtitle": "Instalação residencial, projetos para empresas, manutenção, limpeza, laudo de certificação e adequação elétrica na BA e região metropolitana.",
     "ctaPrimary": {
       "label": "Falar no WhatsApp",
       "message": "Olá! Quero falar com a SUN AMPER sobre energia solar."
@@ -31,7 +31,7 @@
       "Mais de 4 anos no mercado de energia solar",
       "Projetos residenciais, comerciais e industriais",
       "Instalação, manutenção, limpeza e certificação",
-      "Atendimento em Salvador, Camaçari, Candeias e região"
+      "Atendimento na BA e região metropolitana"
     ]
   },
   "about": {
@@ -72,7 +72,7 @@
       },
       {
         "title": "Atuação regional",
-        "description": "Atendimento em Salvador, Camaçari, Candeias e cidades próximas em um raio de 40 km."
+        "description": "Atendimento na BA e região metropolitana."
       }
     ]
   },
@@ -267,7 +267,7 @@
     "items": [
       {
         "q": "A SUN AMPER atende quais regiões?",
-        "a": "Atendemos Salvador, Camaçari, Candeias e cidades próximas em um raio de aproximadamente 40 km de Salvador."
+        "a": "Atendemos a BA e região metropolitana."
       },
       {
         "q": "Vocês fazem instalação residencial?",
@@ -322,7 +322,7 @@
     },
     "email": "",
     "instagram": "https://www.instagram.com/sunamper.bt/",
-    "location": "Salvador, Camaçari, Candeias e região - BA",
+    "location": "BA e região metropolitana",
     "hours": {
       "weekdays": "Segunda a sexta: 08h00 às 17h30",
       "saturday": "Sábado: 08h00 às 13h00",
@@ -332,7 +332,7 @@
     "mapLink": "https://www.google.com/maps/search/?api=1&query=Salvador%2C%20Bahia"
   },
   "footer": {
-    "description": "Energia solar em Salvador, Camaçari, Candeias e região para residências, empresas, manutenção, limpeza e adequação elétrica.",
+    "description": "Energia solar na BA e região metropolitana para residências, empresas, manutenção, limpeza e adequação elétrica.",
     "links": [
       { "label": "Início", "href": "#inicio" },
       { "label": "Serviços", "href": "#servicos" },
