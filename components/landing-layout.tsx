@@ -15,6 +15,8 @@ import {
   Phone,
   ShieldCheck,
   Sparkles,
+  ThumbsDown,
+  ThumbsUp,
   Wrench,
 } from "lucide-react"
 
@@ -127,6 +129,49 @@ export function LandingLayout() {
             </div>
 
             <ReviewsCarousel testimonials={content.socialProof.testimonials} />
+          </div>
+        </section>
+
+        <section className="relative isolate overflow-hidden border-b border-white/10 bg-[#101236] text-white">
+          <Image
+            src="/images/sun-amper-service-residential.png"
+            alt=""
+            fill
+            aria-hidden="true"
+            className="-z-20 object-cover object-center"
+          />
+          <div className="absolute inset-0 -z-10 bg-[#101236]/88" />
+          <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(63,127,215,0.28),transparent_52%)]" />
+
+          <div className="mx-auto max-w-6xl px-4 py-18 text-center sm:px-6 md:py-24">
+            <h2 className="mx-auto max-w-5xl text-3xl font-black uppercase leading-tight tracking-[0.04em] text-white drop-shadow md:text-5xl">
+              Avalie abaixo como foi seu atendimento na{" "}
+              <span className="text-primary italic">SUN AMPER</span>
+            </h2>
+            <p className="mx-auto mt-10 max-w-4xl text-lg leading-relaxed text-white/86 md:text-2xl">
+              Queremos garantir que nosso atendimento atendeu plenamente às suas expectativas. Sua opinião é essencial para continuarmos aprimorando a experiência que oferecemos para você e seu projeto de energia solar.
+            </p>
+
+            <div className="mx-auto mt-10 grid max-w-4xl gap-5 sm:grid-cols-2">
+              <a
+                href={content.contact.mapLink}
+                target="_blank"
+                rel="noreferrer"
+                className="pulse inline-flex min-h-24 items-center justify-center gap-5 rounded-lg border border-primary/40 bg-primary px-6 py-5 text-2xl font-black text-white shadow-[0_24px_60px_rgba(63,127,215,0.34)] transition-colors hover:bg-white hover:text-[#191b4b]"
+              >
+                <ThumbsUp className="h-10 w-10 fill-current" />
+                Gostei
+              </a>
+              <a
+                href={createWhatsAppHref("Olá! Quero falar sobre meu atendimento com a SUN AMPER.")}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex min-h-24 items-center justify-center gap-5 rounded-lg border border-white/16 bg-white/10 px-6 py-5 text-2xl font-black text-white shadow-[0_24px_60px_rgba(0,0,0,0.22)] backdrop-blur transition-colors hover:bg-white hover:text-[#191b4b]"
+              >
+                <ThumbsDown className="h-10 w-10 fill-current" />
+                Não gostei
+              </a>
+            </div>
           </div>
         </section>
 
