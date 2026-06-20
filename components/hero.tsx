@@ -1,25 +1,35 @@
-import Image from "next/image"
-import content from "@/content.json"
-import { ArrowRight } from "lucide-react"
+import Image from "next/image";
+import content from "@/content.json";
+import { ArrowRight } from "lucide-react";
 
 type HeroProps = {
-  whatsappScheduleHref: string
-}
+  whatsappScheduleHref: string;
+};
 
 export function Hero({ whatsappScheduleHref }: HeroProps) {
   return (
     <section className="relative overflow-hidden border-b border-white/10 bg-black">
+      {/* Desktop */}
       <Image
-        src="/images/sun-amper-hero-roof.png"
-        alt="Sistema de energia solar"
+        src="/assets/auto-prime-hero.png"
+        alt="Auto Prime"
         fill
         priority
-        className="object-cover object-center"
+        className="hidden object-cover object-center md:block"
+      />
+
+      {/* Mobile */}
+      <Image
+        src="/assets/auto-prime-hero-mobile.png"
+        alt="Auto Prime"
+        fill
+        priority
+        className="object-cover object-center md:hidden"
       />
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/74 to-black/48" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/42 to-black/18" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(63,127,215,0.36),transparent_68%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(104, 76, 81, 0.36),transparent_88%)]" />
 
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
         <div className="max-w-3xl">
@@ -56,5 +66,5 @@ export function Hero({ whatsappScheduleHref }: HeroProps) {
         </div>
       </div>
     </section>
-  )
+  );
 }

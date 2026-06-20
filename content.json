@@ -1,12 +1,13 @@
 {
   "site": {
-    "name": "SUN AMPER",
-    "tagline": "Energia solar com projeto claro, instalação segura e atendimento próximo.",
-    "description": "Energia solar na BA e região metropolitana para residências, empresas, indústrias e construtoras, com instalação, manutenção, limpeza, laudo de certificação e adequação elétrica.",
-    "location": "BA e região metropolitana, Brasil",
-    "city": "Salvador",
-    "state": "BA",
-    "experienceYears": 4
+    "name": "Auto Prime",
+    "tagline": "Diagnóstico preciso, serviço organizado e atendimento rápido para seu carro não parar.",
+    "description": "Oficina mecânica especializada em manutenção preventiva e corretiva em Belém do Pará. Atuamos com revisão completa, diagnóstico técnico, suspensão, freios, elétrica, injeção eletrônica, alinhamento e balanceamento, com foco em transparência, agilidade e execução correta do serviço.",
+    "location": "Belém e região metropolitana, Pará, Brasil",
+    "city": "Belém",
+    "state": "PA",
+    "experienceYears": 4,
+    "address": "Av. Dr. Freitas, 954 - Pedreira, Belém - PA, 66087-810"
   },
   "navigation": [
     { "label": "Início", "href": "#inicio" },
@@ -17,329 +18,382 @@
     { "label": "Contato", "href": "#contato" }
   ],
   "hero": {
-    "title": "A Nº 1 em economia de energia solar na BA e região metropolitana.",
-    "subtitle": "Instalação residencial, projetos para empresas, manutenção, limpeza, laudo de certificação e adequação elétrica na BA e região metropolitana.",
+    "title": "A melhor oficina mecânica de Belém para manutenção automotiva.",
+    "subtitle": "Serviços completos de revisão, suspensão, freios, elétrica, injeção eletrônica, alinhamento e balanceamento, com atendimento rápido e transparente na Av. Dr. Freitas, em Belém do Pará.",
     "ctaPrimary": {
       "label": "Falar no WhatsApp",
-      "message": "Olá! Quero falar com a SUN AMPER sobre energia solar."
+      "message": "Olá! Quero falar com a Auto Prime sobre meu veículo."
     },
     "ctaSecondary": {
       "label": "Solicitar orçamento",
-      "message": "Olá! Quero solicitar um orçamento de energia solar com a SUN AMPER."
+      "message": "Olá! Quero solicitar um orçamento para meu carro com a Auto Prime."
     },
     "highlights": [
-      "Mais de 4 anos no mercado de energia solar",
-      "Projetos residenciais, comerciais e industriais",
-      "Instalação, manutenção, limpeza e certificação",
-      "Atendimento na BA e região metropolitana"
+      "Mais de 4 anos de experiência em mecânica automotiva",
+      "Diagnóstico técnico antes de qualquer serviço",
+      "Atendimento transparente e sem surpresas",
+      "Oficina em Belém do Pará com estrutura completa"
     ]
   },
   "about": {
-    "eyebrow": "Sobre a SUN AMPER",
-    "title": "Projeto, instalação e manutenção com clareza antes de cada etapa",
+    "eyebrow": "Sobre a Auto Prime",
+    "title": "Manutenção automotiva com diagnóstico claro e execução correta em cada etapa",
     "paragraphs": [
-      "A SUN AMPER atende clientes residenciais, empresas, indústrias e construtoras que querem gerar a própria energia com um projeto bem dimensionado e execução segura.",
-      "O atendimento começa entendendo o consumo de energia, a necessidade do imóvel, a viabilidade de crédito e as condições de instalação. Quando necessário, a equipe realiza visita técnica para avaliar o local e orientar a melhor solução.",
-      "Além da instalação de sistemas solares, a empresa realiza manutenção, limpeza de placas, laudo de certificação, quadros de segurança e trocas de padrão bifásico e trifásico."
+      "A Auto Prime é uma oficina mecânica em Belém do Pará especializada em manutenção preventiva e corretiva para carros de passeio e utilitários leves.",
+      "O atendimento começa com diagnóstico técnico detalhado para identificar a causa real do problema antes de qualquer intervenção, garantindo decisões mais seguras e eficientes para o cliente.",
+      "Além dos serviços de revisão, suspensão, freios, elétrica e injeção eletrônica, a oficina trabalha com alinhamento, balanceamento e serviços estruturais com foco em segurança e durabilidade do veículo."
     ]
   },
   "brandMessage": {
-    "title": "A SUN AMPER trabalha com energia solar de forma próxima, técnica e transparente.",
-    "text": "O foco é construir relação de confiança, explicar cada etapa e entregar soluções com material de qualidade e preço justo."
+    "title": "A Auto Prime atua com mecânica automotiva de forma técnica, transparente e direta.",
+    "text": "O foco é garantir que o cliente entenda o problema do veículo, receba um diagnóstico correto e tenha um serviço executado com responsabilidade e qualidade."
   },
   "differentials": {
-    "title": "Por que escolher a SUN AMPER?",
+    "title": "Por que escolher a Auto Prime?",
     "items": [
       {
-        "title": "Projeto sob medida",
-        "description": "Dimensionamento a partir do consumo, perfil do imóvel e necessidade real do cliente."
+        "title": "Diagnóstico preciso",
+        "description": "Identificação técnica do problema antes da execução de qualquer serviço."
       },
       {
-        "title": "Material de qualidade",
-        "description": "Equipamentos selecionados para segurança, desempenho e durabilidade do sistema."
+        "title": "Serviço transparente",
+        "description": "Explicação clara do que será feito, sem custos ocultos ou surpresas."
       },
       {
-        "title": "Instalação segura",
-        "description": "Execução técnica com atenção a quadros de segurança, padrões elétricos e homologação."
+        "title": "Estrutura completa",
+        "description": "Oficina equipada para manutenção preventiva e corretiva de diferentes sistemas do veículo."
       },
       {
         "title": "Atendimento rápido",
-        "description": "Resposta pelo WhatsApp em poucos minutos para tirar dúvidas e iniciar o orçamento."
+        "description": "Resposta ágil via WhatsApp para orçamento e dúvidas técnicas."
       },
       {
-        "title": "Pós-venda e manutenção",
-        "description": "Limpeza, manutenção e acompanhamento para preservar a geração do sistema."
+        "title": "Pós-serviço e suporte",
+        "description": "Acompanhamento e orientação após a execução do serviço quando necessário."
       },
       {
-        "title": "Atuação regional",
-        "description": "Atendimento na BA e região metropolitana."
+        "title": "Localização estratégica",
+        "description": "Atendimento em Belém do Pará, na Av. Dr. Freitas, com fácil acesso."
       }
     ]
   },
   "services": {
-    "title": "Serviços de energia solar para sua casa ou empresa",
-    "subtitle": "Da análise inicial à manutenção, a SUN AMPER orienta cada etapa para você investir com mais segurança.",
+    "title": "Serviços completos para seu carro rodar com segurança",
+    "subtitle": "Da manutenção preventiva ao reparo técnico, a Auto Prime garante diagnóstico correto e execução transparente em cada serviço.",
     "categories": [
       {
-        "title": "Instalação residencial",
-        "description": "Sistema fotovoltaico para reduzir a conta de luz da sua casa com projeto dimensionado pelo seu consumo.",
-        "items": ["Análise da conta de energia", "Projeto sob medida", "Instalação do sistema", "Orientação sobre crédito", "Homologação junto à concessionária"],
-        "ctaLabel": "Orçar residencial",
-        "ctaMessage": "Olá! Quero um orçamento de energia solar residencial com a SUN AMPER."
+        "title": "Revisão completa",
+        "description": "Manutenção preventiva para identificar desgastes e evitar problemas futuros no veículo.",
+        "items": [
+          "Revisão geral do veículo",
+          "Verificação de sistemas essenciais",
+          "Diagnóstico técnico inicial",
+          "Checklist de segurança",
+          "Orientação de manutenção"
+        ],
+        "ctaLabel": "Agendar revisão",
+        "ctaMessage": "Olá! Quero agendar uma revisão completa com a Auto Prime."
       },
       {
-        "title": "Empresas e indústrias",
-        "description": "Soluções para negócios que querem previsibilidade no custo de energia e estrutura elétrica bem planejada.",
-        "items": ["Projeto comercial", "Projeto industrial", "Análise de consumo", "Execução técnica", "Acompanhamento da homologação"],
-        "ctaLabel": "Orçar empresa",
-        "ctaMessage": "Olá! Quero um orçamento de energia solar para empresa com a SUN AMPER."
+        "title": "Suspensão",
+        "description": "Diagnóstico e reparo do sistema de suspensão para garantir estabilidade, conforto e segurança.",
+        "items": [
+          "Diagnóstico de suspensão",
+          "Troca de amortecedores",
+          "Troca de molas e bandejas",
+          "Substituição de pivôs e buchas",
+          "Revisão de coxins e barras"
+        ],
+        "ctaLabel": "Avaliar suspensão",
+        "ctaMessage": "Olá! Quero avaliar o sistema de suspensão do meu carro com a Auto Prime."
       },
       {
-        "title": "Manutenção e limpeza",
-        "description": "Cuidado preventivo para manter a eficiência das placas e identificar falhas antes que virem prejuízo.",
-        "items": ["Limpeza de placas solares", "Inspeção visual", "Verificação de geração", "Ajustes preventivos", "Orientação de conservação"],
-        "ctaLabel": "Agendar manutenção",
-        "ctaMessage": "Olá! Quero agendar manutenção ou limpeza de placas solares com a SUN AMPER."
+        "title": "Freios",
+        "description": "Manutenção do sistema de freios para garantir segurança e resposta eficiente na frenagem.",
+        "items": [
+          "Troca de pastilhas de freio",
+          "Inspeção de discos",
+          "Verificação do sistema hidráulico",
+          "Troca de fluido de freio",
+          "Diagnóstico do sistema de freio"
+        ],
+        "ctaLabel": "Revisar freios",
+        "ctaMessage": "Olá! Quero revisar o sistema de freios do meu carro com a Auto Prime."
       },
       {
-        "title": "Laudo de certificação",
-        "description": "Avaliação técnica para documentar condições do sistema e dar mais segurança ao proprietário.",
-        "items": ["Vistoria técnica", "Verificação de instalação", "Registro de inconformidades", "Orientação de correção", "Emissão de laudo"],
-        "ctaLabel": "Solicitar laudo",
-        "ctaMessage": "Olá! Quero solicitar um laudo de certificação com a SUN AMPER."
+        "title": "Troca de óleo",
+        "description": "Serviço essencial para manter o motor lubrificado e evitar desgaste prematuro.",
+        "items": [
+          "Troca de óleo do motor",
+          "Substituição de filtro de óleo",
+          "Verificação de nível e viscosidade",
+          "Inspeção de vazamentos",
+          "Recomendação de lubrificante adequado"
+        ],
+        "ctaLabel": "Trocar óleo",
+        "ctaMessage": "Olá! Quero agendar a troca de óleo do meu veículo com a Auto Prime."
       },
       {
-        "title": "Quadro de segurança",
-        "description": "Adequações elétricas para proteger o sistema, o imóvel e os equipamentos conectados.",
-        "items": ["Quadro de proteção", "String box", "Disjuntores e DPS", "Organização elétrica", "Adequação para sistema solar"],
-        "ctaLabel": "Avaliar segurança",
-        "ctaMessage": "Olá! Quero avaliar quadro de segurança para energia solar com a SUN AMPER."
-      },
-      {
-        "title": "Padrão bifásico e trifásico",
-        "description": "Troca e adequação de padrão para preparar o imóvel para uma instalação mais segura e compatível.",
-        "items": ["Avaliação do padrão atual", "Troca para bifásico", "Troca para trifásico", "Adequação técnica", "Orientação para concessionária"],
-        "ctaLabel": "Avaliar padrão",
-        "ctaMessage": "Olá! Quero avaliar troca de padrão bifásico ou trifásico com a SUN AMPER."
+        "title": "Alinhamento e balanceamento",
+        "description": "Ajuste técnico para garantir estabilidade, evitar desgaste irregular e melhorar dirigibilidade.",
+        "items": [
+          "Alinhamento de direção",
+          "Balanceamento de rodas",
+          "Correção de desgaste de pneus",
+          "Diagnóstico de vibração",
+          "Ajuste de geometria"
+        ],
+        "ctaLabel": "Agendar alinhamento",
+        "ctaMessage": "Olá! Quero agendar alinhamento e balanceamento com a Auto Prime."
       }
     ],
     "featured": {
-      "title": "Serviços mais procurados na SUN AMPER",
-      "items": ["Instalação residencial", "Manutenção e limpeza", "Projeto para empresas", "Laudo de certificação", "Quadro de segurança", "Troca de padrão"],
-      "description": "Soluções para quem quer economizar energia, manter o sistema gerando bem e instalar com segurança."
+      "title": "Serviços mais procurados na Auto Prime",
+      "items": [
+        "Suspensão",
+        "Revisão completa",
+        "Troca de óleo",
+        "Freios (pastilhas e discos)",
+        "Alinhamento e balanceamento"
+      ],
+      "description": "Os principais serviços de manutenção para garantir segurança, desempenho e durabilidade do veículo."
     },
     "commercial": {
       "title": "Atendimento pelo WhatsApp",
-      "text": "Envie sua conta de energia, explique sua necessidade e receba orientação para iniciar o orçamento.",
+      "text": "Envie o problema do seu carro e receba orientação rápida para iniciar o atendimento.",
       "primaryButton": {
         "label": "Chamar no WhatsApp",
-        "message": "Olá! Quero falar com a SUN AMPER pelo WhatsApp."
+        "message": "Olá! Quero falar com a Auto Prime pelo WhatsApp."
       },
       "secondaryButton": {
         "label": "Pedir orçamento",
-        "message": "Olá! Quero pedir um orçamento de energia solar com a SUN AMPER."
+        "message": "Olá! Quero pedir um orçamento com a Auto Prime."
       }
     }
   },
   "products": {
-    "title": "Soluções para gerar energia com mais economia e segurança",
-    "subtitle": "Opções para residências, empresas e sistemas que precisam de manutenção, certificação ou adequação elétrica.",
+    "title": "Soluções automotivas para manutenção, segurança e desempenho do seu carro",
+    "subtitle": "Serviços e diagnósticos para garantir funcionamento correto, reduzir desgaste e evitar problemas futuros no veículo.",
     "items": [
       {
-        "category": "Residencial",
-        "title": "Energia solar para casas",
+        "category": "Manutenção",
+        "title": "Revisão completa",
         "image": "/images/sun-amper-banner.png",
-        "description": "Projeto para reduzir a conta de luz e valorizar o imóvel com instalação feita de forma segura.",
-        "ctaLabel": "Orçar minha casa",
-        "ctaMessage": "Olá! Quero orçamento de energia solar para residência com a SUN AMPER."
+        "description": "Inspeção geral do veículo para identificar desgastes e garantir segurança na condução.",
+        "ctaLabel": "Agendar revisão",
+        "ctaMessage": "Olá! Quero agendar uma revisão completa com a Auto Prime."
       },
       {
-        "category": "Empresas",
-        "title": "Projeto para negócios",
+        "category": "Suspensão",
+        "title": "Sistema de suspensão",
         "image": "/images/sun-amper-inversor-deye.png",
-        "description": "Energia solar para empresas que querem previsibilidade, economia e melhor controle dos custos fixos.",
-        "ctaLabel": "Orçar empresa",
-        "ctaMessage": "Olá! Quero orçamento de energia solar para empresa com a SUN AMPER."
+        "description": "Diagnóstico e reparo do sistema de suspensão para estabilidade, conforto e segurança.",
+        "ctaLabel": "Avaliar suspensão",
+        "ctaMessage": "Olá! Quero avaliar o sistema de suspensão do meu carro com a Auto Prime."
       },
       {
         "category": "Manutenção",
-        "title": "Limpeza e manutenção",
+        "title": "Troca de óleo",
         "image": "/images/sun-amper-manutencao.png",
-        "description": "Serviço para preservar a geração do sistema e manter os painéis trabalhando com melhor desempenho.",
-        "ctaLabel": "Agendar limpeza",
-        "ctaMessage": "Olá! Quero agendar limpeza ou manutenção com a SUN AMPER."
+        "description": "Serviço essencial para lubrificação correta do motor e prevenção de desgaste prematuro.",
+        "ctaLabel": "Trocar óleo",
+        "ctaMessage": "Olá! Quero agendar a troca de óleo do meu veículo com a Auto Prime."
       },
       {
-        "category": "Segurança",
-        "title": "Quadro de proteção",
+        "category": "Freios",
+        "title": "Sistema de freios",
         "image": "/images/sun-amper-string-box.png",
-        "description": "Adequação com dispositivos de proteção para reduzir riscos elétricos e organizar a instalação.",
-        "ctaLabel": "Avaliar quadro",
-        "ctaMessage": "Olá! Quero avaliar quadro de segurança com a SUN AMPER."
+        "description": "Manutenção e troca de pastilhas e componentes para garantir frenagem segura e eficiente.",
+        "ctaLabel": "Revisar freios",
+        "ctaMessage": "Olá! Quero revisar o sistema de freios do meu carro com a Auto Prime."
       },
       {
-        "category": "Certificação",
-        "title": "Laudo técnico",
+        "category": "Alinhamento",
+        "title": "Alinhamento e balanceamento",
         "image": "/images/sun-amper-parceiros.png",
-        "description": "Vistoria e documentação técnica para dar mais clareza sobre as condições do sistema.",
-        "ctaLabel": "Solicitar laudo",
-        "ctaMessage": "Olá! Quero solicitar laudo técnico com a SUN AMPER."
+        "description": "Ajuste técnico para melhorar dirigibilidade, estabilidade e evitar desgaste irregular dos pneus.",
+        "ctaLabel": "Agendar alinhamento",
+        "ctaMessage": "Olá! Quero agendar alinhamento e balanceamento com a Auto Prime."
       },
       {
-        "category": "Padrão",
-        "title": "Bifásico e trifásico",
+        "category": "Diagnóstico",
+        "title": "Diagnóstico técnico",
         "image": "/images/sun-amper-inversor-growatt.png",
-        "description": "Troca e adequação de padrão para preparar o imóvel para um projeto solar compatível.",
-        "ctaLabel": "Avaliar padrão",
-        "ctaMessage": "Olá! Quero avaliar padrão bifásico ou trifásico com a SUN AMPER."
+        "description": "Análise detalhada do veículo para identificar falhas antes de qualquer intervenção.",
+        "ctaLabel": "Fazer diagnóstico",
+        "ctaMessage": "Olá! Quero fazer um diagnóstico no meu veículo com a Auto Prime."
       }
     ],
     "primaryCta": {
-      "label": "Consultar melhor solução",
-      "message": "Olá! Quero saber qual solução de energia solar faz sentido para mim com a SUN AMPER."
+      "label": "Consultar melhor serviço",
+      "message": "Olá! Quero saber qual serviço é o ideal para meu carro com a Auto Prime."
     }
   },
   "promotions": {
-    "title": "Condições para começar seu projeto solar",
-    "text": "A SUN AMPER pode orientar opções conforme consumo, tipo de imóvel, crédito disponível e agenda de instalação.",
-    "offers": ["Orçamento para residências", "Manutenção e limpeza preventiva", "Adequação elétrica para sistema solar"],
-    "note": "Condições variam conforme análise técnica e disponibilidade."
+    "title": "Condições para manutenção do seu veículo",
+    "text": "A Auto Prime oferece orientação para revisão, reparos e serviços conforme a necessidade do seu carro.",
+    "offers": [
+      "Revisão preventiva completa",
+      "Serviços de suspensão e freios",
+      "Troca de óleo e manutenção básica"
+    ],
+    "note": "Valores variam conforme diagnóstico e condição do veículo."
   },
   "experience": {
-    "title": "Atendimento claro do primeiro contato à homologação",
-    "text": "A equipe entende sua necessidade, avalia o consumo, orienta sobre valores, visita técnica e próximos passos.",
-    "optionalText": "Depois da instalação, a homologação pode levar cerca de 30 dias conforme o processo da concessionária."
+    "title": "Atendimento claro do diagnóstico à entrega do veículo",
+    "text": "A equipe identifica o problema, explica o serviço necessário e executa a manutenção com transparência.",
+    "optionalText": "Cada serviço é realizado após aprovação do cliente, garantindo clareza e segurança no processo."
   },
   "socialProof": {
-    "title": "Clientes que buscam economia e confiança",
-    "text": "A SUN AMPER atende quem quer reduzir custos com energia sem abrir mão de explicação clara, material de qualidade e instalação bem feita.",
+    "title": "Clientes que confiam na Auto Prime para manutenção do veículo",
+    "text": "A Auto Prime atende motoristas que buscam diagnóstico claro, serviço bem executado e transparência em cada etapa da manutenção automotiva.",
     "rating": 0,
     "reviewCount": 0,
     "testimonials": [
       {
         "name": "Marcos Vinícius",
         "time": "cliente",
-        "text": "O atendimento explicou o consumo, o tamanho do sistema e os próximos passos antes do orçamento."
+        "text": "O atendimento explicou o problema do carro com clareza antes de qualquer serviço ser feito."
       },
       {
         "name": "Juliana Carvalho",
         "time": "cliente",
-        "text": "A análise ajudou a entender como a energia solar poderia reduzir custos fixos da empresa."
+        "text": "Identificaram o problema na suspensão rapidamente e explicaram o que precisava ser feito."
       },
       {
         "name": "Roberto Almeida",
         "time": "cliente",
-        "text": "A limpeza e a verificação do sistema deram mais segurança sobre a geração das placas."
+        "text": "A troca de óleo foi feita com orientação clara sobre o tipo certo para o meu carro."
       },
       {
         "name": "Patrícia Nascimento",
         "time": "cliente",
-        "text": "O orçamento foi apresentado com clareza e a equipe orientou cada etapa da instalação."
+        "text": "O orçamento foi detalhado e não houve surpresa no valor final do serviço."
       },
       {
         "name": "André Luiz",
         "time": "cliente",
-        "text": "A visita técnica ajudou a confirmar o melhor caminho para instalar o sistema."
+        "text": "O diagnóstico ajudou a evitar um problema maior no sistema de freios."
       },
       {
         "name": "Fernanda Reis",
         "time": "cliente",
-        "text": "A equipe foi objetiva ao explicar prazos, homologação e cuidados após a instalação."
+        "text": "A equipe foi objetiva e explicou os prazos e o que seria feito na revisão."
       }
     ]
   },
   "beforeAfter": {
-    "title": "Da conta alta à geração própria",
-    "text": "Você entende o consumo atual, recebe uma proposta dimensionada e acompanha a instalação até o sistema começar a gerar.",
+    "title": "Do problema à solução no seu carro",
+    "text": "Você traz o veículo, a equipe faz o diagnóstico, explica o problema e executa o serviço com aprovação antes de qualquer intervenção.",
     "items": [
-      { "label": "Antes", "title": "Conta de luz analisada", "description": "A equipe entende seu consumo e identifica a solução mais adequada." },
-      { "label": "Durante", "title": "Projeto e instalação", "description": "Instalação com materiais selecionados, segurança elétrica e orientação sobre homologação." },
-      { "label": "Depois", "title": "Economia acompanhada", "description": "Manutenção e limpeza ajudam a preservar a geração e o desempenho do sistema." }
+      {
+        "label": "Antes",
+        "title": "Diagnóstico do veículo",
+        "description": "Identificação do problema e avaliação técnica do sistema afetado."
+      },
+      {
+        "label": "Durante",
+        "title": "Execução do serviço",
+        "description": "Manutenção e reparo com peças adequadas e processo organizado."
+      },
+      {
+        "label": "Depois",
+        "title": "Carro revisado",
+        "description": "Veículo entregue com funcionamento ajustado e orientação de cuidados."
+      }
     ]
   },
   "contentHub": {
-    "title": "Dicas para aproveitar melhor a energia solar",
-    "text": "Conteúdos simples sobre economia, instalação, manutenção, limpeza, homologação e segurança elétrica.",
-    "categories": ["Energia solar residencial", "Energia solar para empresas", "Manutenção", "Limpeza de placas", "Homologação", "Dicas de economia"]
+    "title": "Dicas para manter seu carro em bom estado",
+    "text": "Conteúdos sobre manutenção preventiva, economia, segurança, troca de peças e cuidados com o veículo.",
+    "categories": [
+      "Revisão automotiva",
+      "Suspensão e direção",
+      "Freios",
+      "Troca de óleo",
+      "Alinhamento e balanceamento",
+      "Diagnóstico veicular"
+    ]
   },
   "faq": {
     "title": "Perguntas frequentes",
     "items": [
       {
-        "q": "A SUN AMPER atende quais regiões?",
-        "a": "Atendemos a BA e região metropolitana."
+        "q": "A Auto Prime atende quais regiões?",
+        "a": "Atendemos Belém do Pará e região metropolitana."
       },
       {
-        "q": "Vocês fazem instalação residencial?",
-        "a": "Sim. Fazemos análise da conta de energia, orientação de projeto, instalação e acompanhamento da homologação."
+        "q": "Vocês fazem revisão completa?",
+        "a": "Sim. Realizamos revisão completa com diagnóstico, troca de óleo, filtros e verificação geral do veículo."
       },
       {
-        "q": "A empresa atende empresas e indústrias?",
-        "a": "Sim. A SUN AMPER realiza projetos para empresas, indústrias e construtoras, conforme análise técnica e consumo."
+        "q": "A oficina atende carros nacionais e importados?",
+        "a": "Sim. Trabalhamos com veículos nacionais e importados conforme análise técnica."
       },
       {
-        "q": "Vocês fazem manutenção e limpeza de placas solares?",
-        "a": "Sim. Realizamos limpeza, manutenção e verificação para ajudar a preservar a eficiência do sistema."
+        "q": "Vocês fazem manutenção de suspensão e freios?",
+        "a": "Sim. Realizamos diagnóstico e manutenção de suspensão, freios, pastilhas, discos e componentes relacionados."
       },
       {
-        "q": "Vocês fazem laudo de certificação?",
-        "a": "Sim. A equipe realiza vistoria técnica e laudo para documentar as condições do sistema."
+        "q": "Vocês fazem alinhamento e balanceamento?",
+        "a": "Sim. Realizamos alinhamento, balanceamento e verificação de desgaste dos pneus."
       },
       {
-        "q": "Quanto tempo demora uma instalação?",
-        "a": "A instalação costuma levar de 2 a 5 dias, dependendo do porte do projeto e das condições do local."
+        "q": "Quanto tempo demora uma revisão?",
+        "a": "Depende do estado do veículo, mas revisões básicas geralmente são feitas no mesmo dia."
       },
       {
-        "q": "Quanto tempo demora a homologação?",
-        "a": "A homologação pode levar em torno de 30 dias, conforme andamento do processo junto à concessionária."
+        "q": "Preciso agendar antes de ir até a oficina?",
+        "a": "Recomendamos agendamento pelo WhatsApp para melhor organização e menor tempo de espera."
       },
       {
-        "q": "Vocês trabalham com usinas?",
-        "a": "Projetos de usinas têm prazo maior e são avaliados caso a caso. O foco principal da página é residência, manutenção e empresas."
+        "q": "Vocês trabalham com diagnóstico eletrônico?",
+        "a": "Sim. Fazemos diagnóstico eletrônico para identificar falhas no sistema do veículo."
       }
     ]
   },
   "finalCta": {
-    "title": "Quer reduzir sua conta de luz com energia solar?",
-    "text": "Fale com a SUN AMPER, envie sua conta de energia e receba orientação para iniciar seu orçamento.",
+    "title": "Seu carro precisa de atenção agora?",
+    "text": "Fale com a Auto Prime no WhatsApp e receba orientação rápida sobre o seu veículo.",
     "primaryButton": {
       "label": "Falar no WhatsApp",
-      "message": "Olá! Quero falar com a SUN AMPER agora."
+      "message": "Olá! Quero falar com a Auto Prime sobre meu carro."
     },
     "secondaryButton": {
       "label": "Solicitar orçamento",
-      "message": "Olá! Quero solicitar um orçamento com a SUN AMPER."
+      "message": "Olá! Quero solicitar um orçamento com a Auto Prime."
     }
   },
   "contact": {
     "whatsapp": {
       "label": "Fale no WhatsApp",
-      "numberDisplay": "(71) 98523-4154",
-      "number": "5571985234154",
-      "generalMessage": "Olá! Quero falar com a SUN AMPER.",
-      "evaluationMessage": "Olá! Quero solicitar uma avaliação de energia solar com a SUN AMPER.",
-      "quoteMessage": "Olá! Quero pedir um orçamento com a SUN AMPER."
+      "numberDisplay": "(91) 98302-2698",
+      "number": "559183022698",
+      "generalMessage": "Olá! Quero falar com a Auto Prime.",
+      "evaluationMessage": "Olá! Quero avaliar meu carro com a Auto Prime.",
+      "quoteMessage": "Olá! Quero solicitar um orçamento com a Auto Prime."
     },
     "email": "",
-    "instagram": "https://www.instagram.com/sunamper.bt/",
-    "location": "BA e região metropolitana",
+    "instagram": "https://www.instagram.com/autoprimebelem/",
+    "location": "Av. Dr. Freitas, 954 - Pedreira, Belém - PA, 66087-810",
     "hours": {
-      "weekdays": "Segunda a sexta: 08h00 às 17h30",
-      "saturday": "Sábado: 08h00 às 13h00",
-      "sunday": "Domingo: fechado"
+      "weekdays": "Segunda a domingo: 08h00 às 18h00"
     },
-    "mapQuery": "Salvador, Bahia",
-    "mapLink": "https://www.google.com/maps/search/?api=1&query=Salvador%2C%20Bahia"
+    "mapQuery": "Belém, Pará",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Av.%20Dr.%20Freitas%2C%20954%20-%20Pedreira%2C%20Bel%C3%A9m%20-%20PA"
   },
   "footer": {
-    "description": "Energia solar na BA e região metropolitana para residências, empresas, manutenção, limpeza e adequação elétrica.",
+    "description": "Auto Prime em Belém do Pará. Revisão, suspensão, freios, troca de óleo, alinhamento e diagnóstico automotivo.",
     "links": [
       { "label": "Início", "href": "#inicio" },
       { "label": "Serviços", "href": "#servicos" },
-      { "label": "Sobre nós", "href": "#sobre" },
+      { "label": "Sobre", "href": "#sobre" },
       { "label": "FAQ", "href": "#faq" },
       { "label": "Contato", "href": "#contato" },
-      { "label": "WhatsApp", "href": "https://wa.me/5571985234154?text=Ola!%20Quero%20falar%20com%20a%20SUN%20AMPER." }
+      {
+        "label": "WhatsApp",
+        "href": "https://wa.me/559183022698?text=Ola!%20Quero%20falar%20com%20a%20Auto%20Prime."
+      }
     ]
   }
 }
