@@ -111,7 +111,7 @@ export function Services({
           </p>
         </div>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 xl:grid-cols-3 ">
+        <div className="mt-12 grid gap-5 sm:grid-cols-1 md:grid-cols-3 ">
           {mainServices.map(renderCard)}
         </div>
 

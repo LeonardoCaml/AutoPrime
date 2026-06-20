@@ -4,17 +4,17 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #04090D;
+  --background: #04090d;
   --foreground: #ffffff;
-  --card: #04090D;
+  --card: #04090d;
   --card-foreground: #e4e4e4;
-  --popover: #04090D;
+  --popover: #04090d;
   --popover-foreground: #e4e4e4;
-  --primary: #F20707;
+  --primary: #f20707;
   --primary-foreground: #ffffff;
   --secondary: #ffffff;
   --secondary-foreground: #ffffff;
-  --muted: #8C1207;
+  --muted: #8c1207;
   --muted-foreground: #e4e4e4;
   --accent: #ffffff;
   --accent-foreground: #ffffff;
@@ -25,11 +25,11 @@
   --ring: #3f7fd7;
   --chart-1: #3f7fd7;
   --chart-2: #ffffff;
-  --chart-3: #8C1207;
-  --chart-4: #8C1207;
+  --chart-3: #8c1207;
+  --chart-4: #8c1207;
   --chart-5: #e4e4e4;
   --radius: 0.625rem;
-  --sidebar: #04090D;
+  --sidebar: #04090d;
   --sidebar-foreground: #ffffff;
   --sidebar-primary: #3f7fd7;
   --sidebar-primary-foreground: #ffffff;
@@ -82,6 +82,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
   }
 
   * {
