@@ -34,7 +34,7 @@ const ogImageAlt = "Auto Prime - Mecânica Automotiva em Belém do Pará";
 
 const ogImageUrl = `${siteUrl}/og-image.png`;
 
-const logoUrl = `${siteUrl}/images/auto-prime-logo.png`;
+const logoUrl = `${siteUrl}/auto-prime-logo.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

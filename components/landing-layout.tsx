@@ -54,7 +54,6 @@ export function LandingLayout() {
   const whatsappGeneralHref = createWhatsAppHref(whatsappMessages.general);
   const whatsappScheduleHref = createWhatsAppHref(whatsappMessages.schedule);
   const whatsappServicesHref = createWhatsAppHref(whatsappMessages.services);
-  const mapEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(content.contact.mapQuery)}&z=13&output=embed`;
 
   return (
     <div id="top" className="bg-black text-white">
@@ -65,7 +64,7 @@ export function LandingLayout() {
             className="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/12 bg-[#F20707]"
           >
             <Image
-              src="/images/auto-prime-logo.png"
+              src="/auto-prime-logo.png"
               alt={`Logo da ${content.site.name}`}
               width={220}
               height={220}
@@ -345,8 +344,7 @@ export function LandingLayout() {
           <div className="mx-auto grid max-w-7xl items-stretch gap-8 px-4 py-18 sm:px-6 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] md:py-24">
             <div className="relative min-h-[320px] overflow-hidden rounded-3xl border border-black/12 bg-white sm:min-h-[420px] lg:min-h-[560px]">
               <iframe
-                title={`Localização da ${content.site.name}`}
-                src={mapEmbedUrl}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.60072595321!2d-48.4653061!3d-1.4155442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48be9dbf7747f%3A0xe9f30ef9df46bc2b!2sAv.%20Dr.%20Freitas%2C%20954%20-%20Sacramenta%2C%20Bel%C3%A9m%20-%20PA%2C%2066087-810!5e0!3m2!1spt-BR!2sbr!4v1782129897443!5m2!1spt-BR!2sbr"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="absolute inset-0 h-full w-full border-0"
@@ -470,7 +468,7 @@ export function LandingLayout() {
           <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-4">
             <div className="flex flex-col items-start">
               <Image
-                src="/images/auto-prime-logo.png"
+                src="/auto-prime-logo.png"
                 alt={`Logo da ${content.site.name}`}
                 width={180}
                 height={180}

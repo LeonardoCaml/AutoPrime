@@ -31,7 +31,6 @@ export function Footer() {
               {content.contact.email ? <p>E-mail: {content.contact.email}</p> : null}
               <p>Localização: {content.contact.location}</p>
               <p>{content.contact.hours.weekdays}</p>
-              <p>{content.contact.hours.saturday}</p>
             </div>
           </div>
         </div>
